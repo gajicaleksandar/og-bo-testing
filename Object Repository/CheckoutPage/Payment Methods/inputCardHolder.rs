@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputCardHolder</name>
+   <tag></tag>
+   <elementGuidId>1257e4d7-171a-412b-a7d5-764527a94e44</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.address</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id = 'cardHolder']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>0ebb8539-ba1b-4cb8-bcec-e2f533a25376</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>address</value>
+      <webElementGuid>8585dff0-b3f0-41ab-9e7a-7bf5df86cfd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>4a31bf79-f89b-4507-a585-43d716ef4c75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Card Holder</value>
+      <webElementGuid>ea10e6e7-2073-45a0-8d83-80a59f3bba5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[1]/div[@class=&quot;secure-container py-5 content-wrapper my-5&quot;]/div[@class=&quot;secure-container__contact-info-container&quot;]/div[@class=&quot;secure-container__contact-info-container__contact-info-wrapper&quot;]/div[@class=&quot;shipping-address-box&quot;]/div[@class=&quot;mt-20 w-100&quot;]/div[@class=&quot;w-100&quot;]/div[@class=&quot;card-wraper&quot;]/fieldset[@class=&quot;custom--fieldset mt-5&quot;]/input[@class=&quot;address&quot;]</value>
+      <webElementGuid>10d59c38-f9b8-4198-8476-bd7eaedc5bc3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Card Holder']</value>
+      <webElementGuid>c1af1407-cea4-4dc8-8ec2-32d74ec1604f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//input[@id = 'cardHolder']</value>
+      <webElementGuid>d6cf84db-26d7-46a3-b3b7-948bcb2753d7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

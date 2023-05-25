@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>liFirstSelectAddress</name>
+   <tag></tag>
+   <elementGuidId>80d62999-586a-48c6-9183-7cb640c9e52b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li[@class='p-dropdown-item p-dropdown-item-empty'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.p-dropdown-item.p-dropdown-item-empty</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>64cab694-d213-4aa3-baea-e68b4ec4ebf4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-dropdown-item p-dropdown-item-empty</value>
+      <webElementGuid>e05e73a7-0279-4dbf-958b-85b2ad68a515</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>ab2296b1-d376-487a-8d1a-fcb80a1d5882</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>ce199f5f-ee3e-4ee0-ab49-c33d4f66ed31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>sdfdsf</value>
+      <webElementGuid>3dfe4a64-3cb9-4b3f-8e4f-7bef3ad18aa6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;p-dropdown-panel p-component p-ripple-disabled p-connected-overlay-enter-done&quot;]/div[@class=&quot;p-dropdown-items-wrapper&quot;]/ul[@class=&quot;p-dropdown-items&quot;]/li[@class=&quot;p-dropdown-item p-dropdown-item-empty&quot;]</value>
+      <webElementGuid>ea9a2f94-9e46-4816-b75b-8eb2e8b358a7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(1.0.0.74)'])[1]/following::li[1]</value>
+      <webElementGuid>67ba652a-00d9-4b15-9b19-5e44366946f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/li</value>
+      <webElementGuid>5ab0c9a3-8081-4f48-bfce-a1e3d45fdfe7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'sdfdsf' or . = 'sdfdsf')]</value>
+      <webElementGuid>610fc368-b0e7-4e3c-b0b2-38ce82fc9039</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>(//li[@class='p-dropdown-item p-dropdown-item-empty'])[1]</value>
+      <webElementGuid>8ed48cf8-439a-4dc9-9dd6-0b2c7b3effea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

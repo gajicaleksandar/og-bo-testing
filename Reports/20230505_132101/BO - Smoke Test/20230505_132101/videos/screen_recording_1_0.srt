@@ -1,0 +1,220 @@
+1
+00:00:00,314 --> 00:00:02,934
+1. openBrowser("")
+
+2
+00:00:02,942 --> 00:00:05,635
+5. navigateToUrl("https://ecommerce-test.softmetrixgroup.com/")
+
+3
+00:00:05,636 --> 00:00:05,681
+9. deleteAllCookies()
+
+4
+00:00:05,681 --> 00:00:05,845
+13. maximizeWindow()
+
+5
+00:00:05,847 --> 00:00:06,759
+17. refresh()
+
+6
+00:00:06,760 --> 00:00:09,792
+21. delay(3)
+
+7
+00:00:09,793 --> 00:00:14,351
+25. click(findTestObject("Footer/divCountryLanguage"))
+
+8
+00:00:14,353 --> 00:00:15,973
+29. click(findTestObject("CountryLanguage/select_en-PT"))
+
+9
+00:00:15,974 --> 00:00:17,382
+33. click(findTestObject("Header/iconGuestProfile"))
+
+10
+00:00:17,384 --> 00:00:19,576
+37. setText(findTestObject("LoginPage/inputEmailLogin"), "smoketest@gmail.com")
+
+11
+00:00:19,576 --> 00:00:20,950
+41. setText(findTestObject("LoginPage/inputPasswordLogin"), "SmokeTest123@")
+
+12
+00:00:20,951 --> 00:00:21,652
+45. click(findTestObject("LoginPage/svgShowPasswordLogin"))
+
+13
+00:00:21,653 --> 00:00:22,367
+49. click(findTestObject("LoginPage/buttonSignIn"))
+
+14
+00:00:22,367 --> 00:00:27,403
+53. click(findTestObject("Header/iconUserProfile"))
+
+15
+00:00:27,403 --> 00:00:29,311
+57. click(findTestObject("Header/divAccountInformationBO"))
+
+16
+00:00:29,311 --> 00:00:30,354
+61. click(findTestObject("BackOffice/divViewPaymentsPage"))
+
+17
+00:00:30,354 --> 00:00:32,488
+65. click(findTestObject("Object Repository/BackOffice/ViewPayments/buttonAddNewPaymentMethod"))
+
+18
+00:00:32,490 --> 00:00:33,264
+69. click(findTestObject("Object Repository/BackOffice/ViewPayments/divFirstSelectPaymentMethod"))
+
+19
+00:00:33,265 --> 00:00:33,993
+73. click(findTestObject("Object Repository/BackOffice/ViewPayments/buttonContinue"))
+
+20
+00:00:33,994 --> 00:00:36,002
+77. delay(2)
+
+21
+00:00:36,003 --> 00:00:37,360
+81. setText(findTestObject("Object Repository/BackOffice/ViewPayments/inputCardHolder"), "CL-BRW2")
+
+22
+00:00:37,362 --> 00:00:39,373
+85. delay(2)
+
+23
+00:00:39,376 --> 00:00:40,793
+89. setText(findTestObject("Object Repository/BackOffice/ViewPayments/inputCardNumber"), "1111-1111-1111-1111")
+
+24
+00:00:40,793 --> 00:00:42,804
+93. delay(2)
+
+25
+00:00:42,806 --> 00:00:43,503
+97. click(findTestObject("Object Repository/BackOffice/ViewPayments/spanMonthDropdown"))
+
+26
+00:00:43,504 --> 00:00:44,326
+101. click(findTestObject("Object Repository/BackOffice/ViewPayments/li4SelectMonth"))
+
+27
+00:00:44,326 --> 00:00:45,227
+105. click(findTestObject("Object Repository/BackOffice/ViewPayments/spanYearDropdown"))
+
+28
+00:00:45,229 --> 00:00:46,032
+109. click(findTestObject("Object Repository/BackOffice/ViewPayments/li2027SelectYear"))
+
+29
+00:00:46,033 --> 00:00:48,043
+113. delay(2)
+
+30
+00:00:48,043 --> 00:00:49,497
+117. setText(findTestObject("Object Repository/BackOffice/ViewPayments/inputCVV"), "252")
+
+31
+00:00:49,498 --> 00:00:51,507
+121. delay(2)
+
+32
+00:00:51,508 --> 00:00:54,608
+125. click(findTestObject("Object Repository/BackOffice/ViewPayments/spanAddressDropdown"))
+
+33
+00:00:54,609 --> 00:00:55,445
+129. click(findTestObject("Object Repository/BackOffice/ViewPayments/liFirstSelectAddress"))
+
+34
+00:00:55,447 --> 00:00:59,553
+133. click(findTestObject("Object Repository/BackOffice/ViewPayments/buttonSave"))
+
+35
+00:00:59,554 --> 00:01:03,995
+137. click(findTestObject("Object Repository/BackOffice/ViewPayments/spanFirstEditMethod"))
+
+36
+00:01:03,997 --> 00:01:07,006
+141. delay(3)
+
+37
+00:01:07,007 --> 00:01:07,680
+145. click(findTestObject("BackOffice/ViewPayments/inputCardNumber"))
+
+38
+00:01:07,681 --> 00:01:09,319
+149. setText(findTestObject("Object Repository/BackOffice/ViewPayments/inputCardNumber"), "2222-2222-2222-2222")
+
+39
+00:01:09,321 --> 00:01:11,326
+153. delay(2)
+
+40
+00:01:11,327 --> 00:01:12,723
+157. setText(findTestObject("Object Repository/BackOffice/ViewPayments/inputCardNumber"), "2222-2222-2222-2222")
+
+41
+00:01:12,723 --> 00:01:13,402
+161. click(findTestObject("Object Repository/BackOffice/ViewPayments/spanMonthDropdown"))
+
+42
+00:01:13,402 --> 00:01:14,227
+165. click(findTestObject("Object Repository/BackOffice/ViewPayments/li5SelectMonth"))
+
+43
+00:01:14,228 --> 00:01:15,125
+169. click(findTestObject("Object Repository/BackOffice/ViewPayments/spanYearDropdown"))
+
+44
+00:01:15,127 --> 00:01:15,921
+173. click(findTestObject("Object Repository/BackOffice/ViewPayments/li2026SelectYear"))
+
+45
+00:01:15,922 --> 00:01:17,926
+177. delay(2)
+
+46
+00:01:17,927 --> 00:01:18,632
+181. click(findTestObject("BackOffice/ViewPayments/inputCVV"))
+
+47
+00:01:18,633 --> 00:01:20,167
+185. setText(findTestObject("Object Repository/BackOffice/ViewPayments/inputCVV"), "242")
+
+48
+00:01:20,168 --> 00:01:22,176
+189. delay(2)
+
+49
+00:01:22,176 --> 00:01:23,468
+193. setText(findTestObject("Object Repository/BackOffice/ViewPayments/inputCVV"), "242")
+
+50
+00:01:23,470 --> 00:01:24,152
+197. click(findTestObject("Object Repository/BackOffice/ViewPayments/spanAddressDropdown"))
+
+51
+00:01:24,152 --> 00:01:24,949
+201. click(findTestObject("Object Repository/BackOffice/ViewPayments/liFirstSelectAddress"))
+
+52
+00:01:24,950 --> 00:01:26,402
+205. click(findTestObject("Object Repository/BackOffice/ViewPayments/buttonSave"))
+
+53
+00:01:26,402 --> 00:01:28,271
+209. click(findTestObject("Object Repository/BackOffice/ViewPayments/buttonFirstRemove"))
+
+54
+00:01:28,272 --> 00:01:29,088
+213. click(findTestObject("Object Repository/BackOffice/ViewPayments/buttonAcceptDeleteMethod"))
+
+55
+00:01:29,088 --> 00:01:29,701
+1. cleanup()
+

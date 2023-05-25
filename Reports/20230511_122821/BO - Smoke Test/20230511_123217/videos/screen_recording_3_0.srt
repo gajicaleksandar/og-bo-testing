@@ -1,0 +1,76 @@
+1
+00:00:00,333 --> 00:00:01,571
+1. openBrowser("")
+
+2
+00:00:01,571 --> 00:00:04,210
+5. navigateToUrl("https://ecommerce-test.softmetrixgroup.com/")
+
+3
+00:00:04,211 --> 00:00:04,236
+9. deleteAllCookies()
+
+4
+00:00:04,237 --> 00:00:04,406
+13. maximizeWindow()
+
+5
+00:00:04,406 --> 00:00:04,935
+17. refresh()
+
+6
+00:00:04,936 --> 00:00:07,952
+21. delay(3)
+
+7
+00:00:07,953 --> 00:00:10,829
+25. click(findTestObject("Footer/divCountryLanguage"))
+
+8
+00:00:10,830 --> 00:00:12,129
+29. click(findTestObject("CountryLanguage/select_en-PT"))
+
+9
+00:00:12,129 --> 00:00:13,437
+33. click(findTestObject("Header/iconGuestProfile"))
+
+10
+00:00:13,446 --> 00:00:14,930
+37. setText(findTestObject("LoginPage/inputEmailLogin"), "smoketest@gmail.com")
+
+11
+00:00:14,931 --> 00:00:15,913
+41. setText(findTestObject("LoginPage/inputPasswordLogin"), "SmokeTest123@")
+
+12
+00:00:15,913 --> 00:00:16,446
+45. click(findTestObject("LoginPage/svgShowPasswordLogin"))
+
+13
+00:00:16,446 --> 00:00:16,972
+49. click(findTestObject("LoginPage/buttonSignIn"))
+
+14
+00:00:16,973 --> 00:00:21,360
+53. click(findTestObject("Header/iconUserProfile"))
+
+15
+00:00:21,361 --> 00:00:22,521
+57. click(findTestObject("Header/divAccountInformationBO"))
+
+16
+00:00:22,521 --> 00:00:23,395
+61. click(findTestObject("BackOffice/divViewPaymentsPage"))
+
+17
+00:00:23,396 --> 00:00:24,659
+65. click(findTestObject("Object Repository/BackOffice/ViewPayments/buttonAddNewPaymentMethod"))
+
+18
+00:00:24,660 --> 00:01:01,044
+69. click(findTestObject("Object Repository/BackOffice/ViewPayments/divFirstSelectPaymentMethod"))
+
+19
+00:01:01,045 --> 00:01:01,622
+1. cleanup()
+

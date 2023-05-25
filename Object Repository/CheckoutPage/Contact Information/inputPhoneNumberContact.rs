@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputPhoneNumberContact</name>
+   <tag></tag>
+   <elementGuidId>5280fd4d-5674-4121-8965-84e0d2fdf5c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@placeholder = 'Phone number'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>f058b25a-332d-43ef-8567-680b7a7a499c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control </value>
+      <webElementGuid>2cd59911-0011-4d1f-933d-e2c678761690</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Phone number</value>
+      <webElementGuid>765535cd-74f1-4c82-8658-d9178228bdb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>109fb568-2fcf-477c-980c-30e4adade653</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>+351 3</value>
+      <webElementGuid>914ffeb0-93cb-4e31-a5a4-b44881b37940</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;phoneNumberLabel&quot;)/div[@class=&quot;contact-info-box&quot;]/div[@class=&quot;phone-wrapper mt-5 w-100&quot;]/div[@class=&quot;react-tel-input w-100 rec&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>a102685a-da72-43f1-9add-d37a63c57da3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='+351 3']</value>
+      <webElementGuid>a72ea639-b0bc-454b-ab77-ab6024e4a86f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='phoneNumberLabel']/div/div[2]/div/input</value>
+      <webElementGuid>8de58f02-edb8-4e8e-8411-f5fbe4c2799c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/input</value>
+      <webElementGuid>6f956dbc-8851-4e88-a14c-5b96d3f09591</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Phone number' and @type = 'tel']</value>
+      <webElementGuid>b9b4afb1-d862-4f09-8245-7a828b111643</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

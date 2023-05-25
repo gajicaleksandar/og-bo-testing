@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>spanYearDropdown</name>
+   <tag></tag>
+   <elementGuidId>b8a19386-dd81-4e04-903b-dfbb36cd2956</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='expiration_year']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.p-dropdown-label.p-inputtext.p-placeholder</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2f999069-0d94-459b-91be-21f76c913972</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-dropdown-label p-inputtext p-placeholder</value>
+      <webElementGuid>9810e326-4940-4687-b1a7-6e762d41f9da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Year</value>
+      <webElementGuid>17477981-76ca-41be-9882-c04a36c8f7c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;boMainContent--wrapper&quot;]/div[@class=&quot;boMainContent&quot;]/div[@class=&quot;boMainContent__content&quot;]/div[@class=&quot;boPages&quot;]/div[@class=&quot;viewPayment&quot;]/div[@class=&quot;viewPayment__content&quot;]/div[@class=&quot;paper__body&quot;]/div[@class=&quot;paper__body__content&quot;]/div[@class=&quot;paper__body__content-body&quot;]/div[@class=&quot;formWrapper&quot;]/div[@class=&quot;billingAddress&quot;]/div[@class=&quot;cardInformationForm&quot;]/div[@class=&quot;cardInformationForm__content&quot;]/form[1]/div[@class=&quot;leftSide&quot;]/div[@class=&quot;paymentMethod&quot;]/div[@class=&quot;paymentMethod__content&quot;]/div[@class=&quot;dualInputWrapper&quot;]/div[@class=&quot;input-wrapper&quot;]/span[@class=&quot;p-float-label&quot;]/div[@id=&quot;expiration_year&quot;]/span[@class=&quot;p-dropdown-label p-inputtext p-placeholder&quot;]</value>
+      <webElementGuid>09c519aa-03dd-43aa-b684-df42368813aa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='expiration_year']/span</value>
+      <webElementGuid>7b801566-5dba-42d3-be47-3da403792055</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Month*'])[1]/following::span[2]</value>
+      <webElementGuid>05e9761f-f196-4575-8c99-ca9f48a59eb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Card Number*'])[1]/following::span[5]</value>
+      <webElementGuid>1b10b2ed-b29c-4fa4-9397-65ef2e1e650e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Year*'])[1]/preceding::span[3]</value>
+      <webElementGuid>518e7b3e-a336-4ce2-b9e4-1102680fad07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span/div/span</value>
+      <webElementGuid>88d62c41-68af-4f29-9c50-f42d2c6c14fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Year' or . = 'Year')]</value>
+      <webElementGuid>cbf6189d-becc-4bcc-a245-764387ab8d48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//div[@id='expiration_year']</value>
+      <webElementGuid>9b67c252-eb8e-4f9a-af8a-51f64a5f6a1f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>buttonContinue</name>
+   <tag></tag>
+   <elementGuidId>34a9b714-395e-42cc-a0eb-2a663044effb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@aria-label= 'Continue']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-button.p-component.continue</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2ba68ac6-c357-46a2-b847-b87182c582f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Continue</value>
+      <webElementGuid>3bf1bb6d-4bec-425b-92cb-c6fa1d73f286</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-button p-component continue</value>
+      <webElementGuid>d0cb8e8e-bb88-4590-a9c0-7bd0ea01a501</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continue</value>
+      <webElementGuid>9665035f-4d05-4663-88d1-8b426bdb84cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;boMainContent--wrapper&quot;]/div[@class=&quot;boMainContent&quot;]/div[@class=&quot;boMainContent__content&quot;]/div[@class=&quot;boPages&quot;]/div[@class=&quot;viewPayment&quot;]/div[@class=&quot;viewPayment__content&quot;]/div[@class=&quot;paper__body&quot;]/div[@class=&quot;paper__body__content&quot;]/div[@class=&quot;selectPaymentMethodView&quot;]/div[@class=&quot;selectPaymentMethodView__content&quot;]/div[@class=&quot;selectPaymentMethodView__content__actions&quot;]/button[@class=&quot;p-button p-component continue&quot;]</value>
+      <webElementGuid>64077c74-be92-4a3b-8420-e4198fd523f2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div/div[2]/div[2]/div/div[2]/div/div/div/div[3]/button</value>
+      <webElementGuid>0492fb18-fe9c-4a6a-b178-9cfadc458e0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Payment Methods'])[1]/following::button[1]</value>
+      <webElementGuid>72902457-731a-4b4d-a9e8-332d728fc025</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='S'])[1]/following::button[1]</value>
+      <webElementGuid>e50d72be-8734-40f9-9a8b-110c863e8b56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
+      <webElementGuid>13059e75-013c-4b24-8727-1010e31b3f9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>57789393-e257-433e-985b-ebe475c0acb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Continue' or . = 'Continue')]</value>
+      <webElementGuid>81aaddf7-a058-4065-aa51-f60957b8b13e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//button[@aria-label= 'Continue']</value>
+      <webElementGuid>fec31fa2-96ae-4995-88e0-95f33799c424</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

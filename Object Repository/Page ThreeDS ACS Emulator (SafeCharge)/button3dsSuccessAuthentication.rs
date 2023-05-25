@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button3dsSuccessAuthentication</name>
+   <tag></tag>
+   <elementGuidId>72cbbf5f-4ecf-4815-b7e3-6edf152df27a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#btn1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id = 'btn1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9863ec89-fbe1-4f23-94b1-5f20205e7872</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btn1</value>
+      <webElementGuid>634218dc-91df-4a3f-b744-b8288e5f0647</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>postRequestSuccessAuthentication()</value>
+      <webElementGuid>af2e0b06-8833-4c63-82f1-2dd22962671b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Success authentication</value>
+      <webElementGuid>45254b5d-2bca-4c6c-bb10-44da90263719</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btn1&quot;)</value>
+      <webElementGuid>c01efe8d-988d-4a88-8ac3-a964a6ab3061</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//button[@id = 'btn1']</value>
+      <webElementGuid>064561eb-9bee-4e75-a274-eacc37a570fa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

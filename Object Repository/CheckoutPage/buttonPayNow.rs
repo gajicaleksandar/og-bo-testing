@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>buttonPayNow</name>
+   <tag></tag>
+   <elementGuidId>eb696480-822a-4968-a2fd-5f51e1bdea5c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[text()='Pay Now']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.ant-btn.ant-btn-default.button-secondary.mt-5.button-black</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fedc8914-82a1-4f71-b18c-9626e82bfc2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bcff5d11-1dad-4fed-aba6-32c20bd70258</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-btn ant-btn-default button-secondary mt-5 button-black</value>
+      <webElementGuid>0ae527cb-d9c3-423d-b5ae-1d3addbd04e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pay Now</value>
+      <webElementGuid>9f4ed4a3-4a8c-4719-8405-fde633d1ad3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[1]/div[@class=&quot;secure-container py-5 content-wrapper my-5&quot;]/div[@class=&quot;secure-container__contact-info-container&quot;]/div[@class=&quot;order-summary-container&quot;]/button[@class=&quot;ant-btn ant-btn-default button-secondary mt-5 button-black&quot;]</value>
+      <webElementGuid>bbd9c4e0-88fd-4e68-a75f-9a3feef3d987</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>d1f509ca-4a39-4fe2-93e7-53df83a5c47b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div[2]/button</value>
+      <webElementGuid>61ab9ffb-ff52-41d6-b98b-37f0e05562ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms &amp; Conditions of Sale'])[1]/following::button[1]</value>
+      <webElementGuid>dd7ffe51-6752-40c1-a652-c22dcb7822d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//button[text()='Pay Now']</value>
+      <webElementGuid>d5214ba9-3b10-4fe6-ad7e-4b83556eb138</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

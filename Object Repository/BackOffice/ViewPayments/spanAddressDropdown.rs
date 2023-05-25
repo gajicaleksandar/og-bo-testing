@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>spanAddressDropdown</name>
+   <tag></tag>
+   <elementGuidId>a29b445e-5180-4bbd-8648-134d9f27050a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loaded_address']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.p-dropdown-label.p-inputtext.p-placeholder</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>25fbbbaf-3a7a-4013-9ab4-4bc834b393b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-dropdown-label p-inputtext p-placeholder</value>
+      <webElementGuid>5908edfb-0d3f-4f08-9466-727544d6ff59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Address</value>
+      <webElementGuid>b8c2feb6-ee4c-4637-a562-a52a6edd84cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;boMainContent--wrapper&quot;]/div[@class=&quot;boMainContent&quot;]/div[@class=&quot;boMainContent__content&quot;]/div[@class=&quot;boPages&quot;]/div[@class=&quot;viewPayment&quot;]/div[@class=&quot;viewPayment__content&quot;]/div[@class=&quot;paper__body&quot;]/div[@class=&quot;paper__body__content&quot;]/div[@class=&quot;paper__body__content-body&quot;]/div[@class=&quot;formWrapper&quot;]/div[@class=&quot;billingAddress&quot;]/div[@class=&quot;cardInformationForm&quot;]/div[@class=&quot;cardInformationForm__content&quot;]/form[1]/div[@class=&quot;leftSide&quot;]/div[@class=&quot;loadAddress&quot;]/div[@class=&quot;input-wrapper&quot;]/span[@class=&quot;p-float-label&quot;]/div[@id=&quot;loaded_address&quot;]/span[@class=&quot;p-dropdown-label p-inputtext p-placeholder&quot;]</value>
+      <webElementGuid>6c02af89-cedc-435e-8b5d-d098e424f434</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loaded_address']/span</value>
+      <webElementGuid>8ecc5e8f-fddc-4701-b867-ff6a721304d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CVV*'])[1]/following::span[2]</value>
+      <webElementGuid>3c5534b8-7099-4945-91a4-47a015d45b27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Year*'])[1]/following::span[3]</value>
+      <webElementGuid>5febd12a-19a5-459a-8f62-d6872246bbef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Address'])[3]/preceding::span[3]</value>
+      <webElementGuid>26a328f4-f45d-4f57-9590-844177b57c78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/span/div/span</value>
+      <webElementGuid>e3e67bed-90ae-488e-880f-6899dbe00d28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Select Address' or . = 'Select Address')]</value>
+      <webElementGuid>8be63b88-987a-41af-a6c6-fe804c83c3ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//div[@id='loaded_address']</value>
+      <webElementGuid>f2c4eb70-418a-4e5d-9ddc-6847145a3239</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pUpdatePassword</name>
+   <tag></tag>
+   <elementGuidId>9e85dd18-b40b-4809-87bd-90a378148b26</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//p[(text() = 'UPDATE')])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.infoBlock-password__content > div.blockTitle > div.action > button > p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>85971fe2-e746-45b2-b1e6-1d74d94a285d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>UPDATE</value>
+      <webElementGuid>425ecc31-bc25-4919-bfc4-ab1319afb62f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;boMainContent--wrapper&quot;]/div[@class=&quot;boMainContent&quot;]/div[@class=&quot;boMainContent__content&quot;]/div[@class=&quot;boPages&quot;]/div[@class=&quot;accountInformation&quot;]/div[@class=&quot;accountInformation__content&quot;]/div[@class=&quot;accountInformationSection&quot;]/div[@class=&quot;accountInformationSection__content&quot;]/div[@class=&quot;infoBlock-password&quot;]/div[@class=&quot;infoBlock-password__content&quot;]/div[@class=&quot;blockTitle&quot;]/div[@class=&quot;action&quot;]/button[1]/p[1]</value>
+      <webElementGuid>b930c482-a713-453d-904f-70ebd24e4024</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[2]/div/div/div[2]/div/div/div[2]/div/div[3]/div/div/div[2]/button/p</value>
+      <webElementGuid>6a70ca05-cfe0-4d28-8d51-29687215d767</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PASSWORD'])[1]/following::p[1]</value>
+      <webElementGuid>ee264edd-8c8a-4f46-8343-401c60b8b4dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::p[4]</value>
+      <webElementGuid>0c9184a4-1592-45ac-ad1c-2f6dafc256bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PHONE BOOK'])[1]/preceding::p[3]</value>
+      <webElementGuid>30303c6b-dc0f-4e2b-b87c-4080bc14e201</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/p</value>
+      <webElementGuid>811b7b97-18b0-4959-b13a-986fb74c3c52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'UPDATE' or . = 'UPDATE')]</value>
+      <webElementGuid>4412dddb-645b-41a5-961e-c40873276ed7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>(//p[(text() = 'UPDATE')])[2]</value>
+      <webElementGuid>0a0fb447-7bb0-45bf-b412-7acc3107938c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

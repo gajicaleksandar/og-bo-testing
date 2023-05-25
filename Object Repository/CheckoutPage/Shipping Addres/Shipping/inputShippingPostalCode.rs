@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputShippingPostalCode</name>
+   <tag></tag>
+   <elementGuidId>eb43b1ff-1ad9-49d6-bb7a-aa8117c1c807</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.ant-input.rec.mt-30.w-100</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id = 'postal_code']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>027e03ac-3910-40f8-a14c-10bb26ff82ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>ec963296-fef4-439e-b7ce-490bbd2723b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Postal Code</value>
+      <webElementGuid>e3be6f39-199c-4664-87e3-da95b4a13c54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-input rec mt-30 w-100</value>
+      <webElementGuid>599914bd-1824-4809-aa2c-216e165703cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;phoneNumberLabel_postal_code&quot;)/input[@class=&quot;ant-input rec mt-30 w-100&quot;]</value>
+      <webElementGuid>f84f25fe-3134-4ad2-9389-c7461be15fa8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[3]</value>
+      <webElementGuid>240da820-97e7-4b83-8dad-eb361c44b735</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='phoneNumberLabel_postal_code']/input</value>
+      <webElementGuid>84a0d63c-c713-469d-92ae-43b9f781b2a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div[2]/div/div/div/div/fieldset/input</value>
+      <webElementGuid>f818e276-8911-447c-9e96-1e8c5a236088</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Postal Code']</value>
+      <webElementGuid>3de06431-c566-4769-8eb0-d562a8b39348</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BO - Smoke Test" time="198.664" tests="3" failures="1" errors="0">
+   <testsuite name="BO - Smoke Test" tests="3" failures="1" errors="0" time="198.664" skipped="0" timestamp="2023-05-24 13:04:22" hostname="WIN10 - FINMX-L12" id="Test Suites/BO - Smoke Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\Katalon Studio\\og-bo-testing\\Reports\\20230524_125736\\BO - Smoke Test\\20230524_130415"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\Katalon Studio\\og-bo-testing\\Reports\\20230524_125736\\BO - Smoke Test\\20230524_130415\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\WIN10\\Katalon Studio\\og-bo-testing\\Reports\\20230524_125736\\BO - Smoke Test\\20230524_130415\\1684926358641.png"/>
+         <property name="hostName" value="WIN10 - FINMX-L12"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.25"/>
+         <property name="sessionId" value="03ece74f2b9c970f630ccf1d95d0f7c6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/II Test Case (View My Orders)" time="146.025" classname="Test Cases/II Test Case (View My Orders)" status="PASSED">
+         <system-out><![CDATA[2023-05-24 13:04:22 - [TEST_CASE][PASSED] - Test Cases/II Test Case (View My Orders): Test Cases/II Test Case (View My Orders)
+
+2023-05-24 13:04:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-24 13:04:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-24 13:04:23 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2023-05-24 13:04:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-24 13:04:25 - [TEST_STEP][PASSED] - navigateToUrl("https://ecommerce-test.softmetrixgroup.com/"): Navigate to 'https://ecommerce-test.softmetrixgroup.com/' successfully
+
+2023-05-24 13:04:27 - [MESSAGE][PASSED] - Navigate to 'https://ecommerce-test.softmetrixgroup.com/' successfully
+
+2023-05-24 13:04:27 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2023-05-24 13:04:27 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2023-05-24 13:04:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-24 13:04:28 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-24 13:04:28 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-05-24 13:04:28 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-05-24 13:04:28 - [TEST_STEP][PASSED] - shopVersion = getText(findTestObject("Footer/shopVersion")): Text of object 'Object Repository/Footer/shopVersion' is: '(1.0.0.121)'
+
+2023-05-24 13:04:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Footer/shopVersion' is: '(1.0.0.121)'
+
+2023-05-24 13:04:32 - [TEST_STEP][PASSED] - println("Version of origin/test is: " + shopVersion): null
+
+2023-05-24 13:04:32 - [TEST_STEP][PASSED] - click(findTestObject("Footer/divCountryLanguage")): Object: 'Object Repository/Footer/divCountryLanguage' is clicked on
+
+2023-05-24 13:04:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer/divCountryLanguage' is clicked on
+
+2023-05-24 13:04:34 - [TEST_STEP][PASSED] - click(findTestObject("CountryLanguage/select_en-PT")): Object: 'Object Repository/CountryLanguage/select_en-PT' is clicked on
+
+2023-05-24 13:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/CountryLanguage/select_en-PT' is clicked on
+
+2023-05-24 13:04:36 - [TEST_STEP][PASSED] - click(findTestObject("Header/iconGuestProfile")): Object: 'Object Repository/Header/iconGuestProfile' is clicked on
+
+2023-05-24 13:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/iconGuestProfile' is clicked on
+
+2023-05-24 13:04:37 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/inputEmailLogin"), "smoketest@gmail.com"): Text 'smoketest@gmail.com' is set on object 'Object Repository/LoginPage/inputEmailLogin'
+
+2023-05-24 13:04:39 - [MESSAGE][PASSED] - Text 'smoketest@gmail.com' is set on object 'Object Repository/LoginPage/inputEmailLogin'
+
+2023-05-24 13:04:39 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/inputPasswordLogin"), "SmokeTest123@"): Text 'SmokeTest123@' is set on object 'Object Repository/LoginPage/inputPasswordLogin'
+
+2023-05-24 13:04:40 - [MESSAGE][PASSED] - Text 'SmokeTest123@' is set on object 'Object Repository/LoginPage/inputPasswordLogin'
+
+2023-05-24 13:04:40 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/svgShowPasswordLogin")): Object: 'Object Repository/LoginPage/svgShowPasswordLogin' is clicked on
+
+2023-05-24 13:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/svgShowPasswordLogin' is clicked on
+
+2023-05-24 13:04:41 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/buttonSignIn")): Object: 'Object Repository/LoginPage/buttonSignIn' is clicked on
+
+2023-05-24 13:04:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/buttonSignIn' is clicked on
+
+2023-05-24 13:04:42 - [TEST_STEP][PASSED] - click(findTestObject("Header/iconUserProfile")): Object: 'Object Repository/Header/iconUserProfile' is clicked on
+
+2023-05-24 13:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/iconUserProfile' is clicked on
+
+2023-05-24 13:04:46 - [TEST_STEP][PASSED] - click(findTestObject("Header/divAccountInformationBO")): Object: 'Object Repository/Header/divAccountInformationBO' is clicked on
+
+2023-05-24 13:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/divAccountInformationBO' is clicked on
+
+2023-05-24 13:04:48 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/divViewMyOrdersPage")): Object: 'Object Repository/BackOffice/divViewMyOrdersPage' is clicked on
+
+2023-05-24 13:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/divViewMyOrdersPage' is clicked on
+
+2023-05-24 13:04:49 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/ViewMyOrders/svg1ViewDetailOrder")): Object: 'Object Repository/BackOffice/ViewMyOrders/svg1ViewDetailOrder' is clicked on
+
+2023-05-24 13:04:51 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/ViewMyOrders/svg1ViewDetailOrder' is clicked on
+
+2023-05-24 13:04:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-05-24 13:04:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-24 13:04:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BackOffice/ViewMyOrders/assertViewOrder")): Object 'Object Repository/BackOffice/ViewMyOrders/assertViewOrder' is visible
+
+2023-05-24 13:04:54 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/ViewMyOrders/assertViewOrder' is visible
+
+2023-05-24 13:04:54 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/ViewMyOrders/buttonGoBackDetailOrder")): Object: 'Object Repository/BackOffice/ViewMyOrders/buttonGoBackDetailOrder' is clicked on
+
+2023-05-24 13:04:55 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/ViewMyOrders/buttonGoBackDetailOrder' is clicked on
+
+2023-05-24 13:04:55 - [TEST_STEP][PASSED] - invoice_number = executeJavaScript("return JSON.parse(JSON.parse(localStorage.getItem('persist:og')).orderHistory).orders.content[0].invoice_number;", null): Execute JavaScript 'return JSON.parse(JSON.parse(localStorage.getItem('persist:og')).orderHistory).orders.content[0].invoice_number;' successfully
+
+2023-05-24 13:04:55 - [MESSAGE][PASSED] - Execute JavaScript 'return JSON.parse(JSON.parse(localStorage.getItem('persist:og')).orderHistory).orders.content[0].invoice_number;' successfully
+
+2023-05-24 13:04:55 - [TEST_STEP][PASSED] - println(invoice_number): null
+
+2023-05-24 13:04:55 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/ViewMyOrders/button1RepeatOrder")): Object: 'Object Repository/BackOffice/ViewMyOrders/button1RepeatOrder' is clicked on
+
+2023-05-24 13:04:56 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/ViewMyOrders/button1RepeatOrder' is clicked on
+
+2023-05-24 13:04:56 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/ViewMyOrders/RepeatOrder/iconUpQuantity")): Object: 'Object Repository/BackOffice/ViewMyOrders/RepeatOrder/iconUpQuantity' is clicked on
+
+2023-05-24 13:04:58 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/ViewMyOrders/RepeatOrder/iconUpQuantity' is clicked on
+
+2023-05-24 13:04:58 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/ViewMyOrders/RepeatOrder/buttonCheckout")): Object: 'Object Repository/BackOffice/ViewMyOrders/RepeatOrder/buttonCheckout' is clicked on
+
+2023-05-24 13:04:59 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/ViewMyOrders/RepeatOrder/buttonCheckout' is clicked on
+
+2023-05-24 13:04:59 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/ViewMyOrders/RepeatOrder/buttonCheckout")): Object: 'Object Repository/BackOffice/ViewMyOrders/RepeatOrder/buttonCheckout' is clicked on
+
+2023-05-24 13:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/ViewMyOrders/RepeatOrder/buttonCheckout' is clicked on
+
+2023-05-24 13:05:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-05-24 13:05:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-24 13:05:06 - [TEST_STEP][PASSED] - urlCheckout = getUrl(): Current window's url is: 'https://ecommerce-test.softmetrixgroup.com/en-PT/checkout/'
+
+2023-05-24 13:05:06 - [MESSAGE][PASSED] - Current window's url is: 'https://ecommerce-test.softmetrixgroup.com/en-PT/checkout/'
+
+2023-05-24 13:05:06 - [TEST_STEP][PASSED] - println(urlCheckout): null
+
+2023-05-24 13:05:06 - [TEST_STEP][PASSED] - if (urlCheckout.contains("checkout")): null
+
+2023-05-24 13:05:06 - [TEST_STEP][PASSED] - println("Checkout page is opened"): null
+
+2023-05-24 13:05:06 - [TEST_STEP][PASSED] - if (invoice_number.contains("US")): null
+
+2023-05-24 13:05:06 - [TEST_STEP][PASSED] - else if (invoice_number.contains("AU")): null
+
+2023-05-24 13:05:06 - [TEST_STEP][PASSED] - else if (invoice_number.contains("ZA")): null
+
+2023-05-24 13:05:06 - [TEST_STEP][PASSED] - else: Delayed 15 second(s)
+
+2023-05-24 13:05:06 - [TEST_STEP][PASSED] - println("This order is from: Europe - " + invoice_number): null
+
+2023-05-24 13:05:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CheckoutPage/Contact Information/inputPhoneNumberContact"), "305345345"): Text '305345345' is set on object 'Object Repository/CheckoutPage/Contact Information/inputPhoneNumberContact'
+
+2023-05-24 13:05:07 - [MESSAGE][PASSED] - Text '305345345' is set on object 'Object Repository/CheckoutPage/Contact Information/inputPhoneNumberContact'
+
+2023-05-24 13:05:07 - [TEST_STEP][PASSED] - setText(findTestObject("CheckoutPage/Shipping Addres/Shipping/inputShippingFirstName"), "smoke"): Text 'smoke' is set on object 'Object Repository/CheckoutPage/Shipping Addres/Shipping/inputShippingFirstName'
+
+2023-05-24 13:05:08 - [MESSAGE][PASSED] - Text 'smoke' is set on object 'Object Repository/CheckoutPage/Shipping Addres/Shipping/inputShippingFirstName'
+
+2023-05-24 13:05:08 - [TEST_STEP][PASSED] - setText(findTestObject("CheckoutPage/Shipping Addres/Shipping/inputShippingLastName"), "test"): Text 'test' is set on object 'Object Repository/CheckoutPage/Shipping Addres/Shipping/inputShippingLastName'
+
+2023-05-24 13:05:09 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/CheckoutPage/Shipping Addres/Shipping/inputShippingLastName'
+
+2023-05-24 13:05:09 - [TEST_STEP][PASSED] - clearText(findTestObject("CheckoutPage/Shipping Addres/Shipping/inputPhoneNumberShipping"), STOP_ON_FAILURE): Text of object 'Object Repository/CheckoutPage/Shipping Addres/Shipping/inputPhoneNumberShipping' is cleared
+
+2023-05-24 13:05:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/Shipping Addres/Shipping/inputPhoneNumberShipping' is cleared
+
+2023-05-24 13:05:10 - [TEST_STEP][PASSED] - setText(findTestObject("CheckoutPage/Shipping Addres/Shipping/inputPhoneNumberShipping"), "05345345"): Text '05345345' is set on object 'Object Repository/CheckoutPage/Shipping Addres/Shipping/inputPhoneNumberShipping'
+
+2023-05-24 13:05:11 - [MESSAGE][PASSED] - Text '05345345' is set on object 'Object Repository/CheckoutPage/Shipping Addres/Shipping/inputPhoneNumberShipping'
+
+2023-05-24 13:05:11 - [TEST_STEP][PASSED] - setText(findTestObject("CheckoutPage/Shipping Addres/Shipping/inputShippingAddress"), "3240 Arville St"): Text '3240 Arville St' is set on object 'Object Repository/CheckoutPage/Shipping Addres/Shipping/inputShippingAddress'
+
+2023-05-24 13:05:12 - [MESSAGE][PASSED] - Text '3240 Arville St' is set on object 'Object Repository/CheckoutPage/Shipping Addres/Shipping/inputShippingAddress'
+
+2023-05-24 13:05:12 - [TEST_STEP][PASSED] - setText(findTestObject("CheckoutPage/Shipping Addres/Shipping/inputShippingApartment"), "apartment test 1"): Text 'apartment test 1' is set on object 'Object Repository/CheckoutPage/Shipping Addres/Shipping/inputShippingApartment'
+
+2023-05-24 13:05:13 - [MESSAGE][PASSED] - Text 'apartment test 1' is set on object 'Object Repository/CheckoutPage/Shipping Addres/Shipping/inputShippingApartment'
+
+2023-05-24 13:05:13 - [TEST_STEP][PASSED] - click(findTestObject("CheckoutPage/Shipping Addres/Shipping/divStateDropdown")): Object: 'Object Repository/CheckoutPage/Shipping Addres/Shipping/divStateDropdown' is clicked on
+
+2023-05-24 13:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/Shipping Addres/Shipping/divStateDropdown' is clicked on
+
+2023-05-24 13:05:16 - [TEST_STEP][PASSED] - click(findTestObject("CheckoutPage/Shipping Addres/Shipping/div2SelectState")): Object: 'Object Repository/CheckoutPage/Shipping Addres/Shipping/div2SelectState' is clicked on
+
+2023-05-24 13:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/Shipping Addres/Shipping/div2SelectState' is clicked on
+
+2023-05-24 13:05:17 - [TEST_STEP][PASSED] - setText(findTestObject("CheckoutPage/Shipping Addres/Shipping/inputCity"), "Lisboa"): Text 'Lisboa' is set on object 'Object Repository/CheckoutPage/Shipping Addres/Shipping/inputCity'
+
+2023-05-24 13:05:18 - [MESSAGE][PASSED] - Text 'Lisboa' is set on object 'Object Repository/CheckoutPage/Shipping Addres/Shipping/inputCity'
+
+2023-05-24 13:05:18 - [TEST_STEP][PASSED] - setText(findTestObject("CheckoutPage/Shipping Addres/Shipping/inputShippingPostalCode"), "9630"): Text '9630' is set on object 'Object Repository/CheckoutPage/Shipping Addres/Shipping/inputShippingPostalCode'
+
+2023-05-24 13:05:19 - [MESSAGE][PASSED] - Text '9630' is set on object 'Object Repository/CheckoutPage/Shipping Addres/Shipping/inputShippingPostalCode'
+
+2023-05-24 13:05:19 - [TEST_STEP][PASSED] - click(findTestObject("CheckoutPage/Shipping Addres/buttonContinueToPayment")): Object: 'Object Repository/CheckoutPage/Shipping Addres/buttonContinueToPayment' is clicked on
+
+2023-05-24 13:05:22 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/Shipping Addres/buttonContinueToPayment' is clicked on
+
+2023-05-24 13:05:22 - [TEST_STEP][PASSED] - click(findTestObject("CheckoutPage/divCreditCardMethod")): Object: 'Object Repository/CheckoutPage/divCreditCardMethod' is clicked on
+
+2023-05-24 13:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/divCreditCardMethod' is clicked on
+
+2023-05-24 13:05:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-05-24 13:05:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-05-24 13:05:30 - [TEST_STEP][PASSED] - setText(findTestObject("CheckoutPage/Payment Methods/inputCardNumber"), "4000020951595032"): Text '4000020951595032' is set on object 'Object Repository/CheckoutPage/Payment Methods/inputCardNumber'
+
+2023-05-24 13:05:31 - [MESSAGE][PASSED] - Text '4000020951595032' is set on object 'Object Repository/CheckoutPage/Payment Methods/inputCardNumber'
+
+2023-05-24 13:05:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-05-24 13:05:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-05-24 13:05:33 - [TEST_STEP][PASSED] - setText(findTestObject("CheckoutPage/Payment Methods/inputCardHolder"), "CL-BRW2"): Text 'CL-BRW2' is set on object 'Object Repository/CheckoutPage/Payment Methods/inputCardHolder'
+
+2023-05-24 13:05:34 - [MESSAGE][PASSED] - Text 'CL-BRW2' is set on object 'Object Repository/CheckoutPage/Payment Methods/inputCardHolder'
+
+2023-05-24 13:05:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-05-24 13:05:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-05-24 13:05:36 - [TEST_STEP][PASSED] - setText(findTestObject("CheckoutPage/Payment Methods/inputCardExpire"), "02/25"): Text '02/25' is set on object 'Object Repository/CheckoutPage/Payment Methods/inputCardExpire'
+
+2023-05-24 13:05:37 - [MESSAGE][PASSED] - Text '02/25' is set on object 'Object Repository/CheckoutPage/Payment Methods/inputCardExpire'
+
+2023-05-24 13:05:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-05-24 13:05:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-05-24 13:05:39 - [TEST_STEP][PASSED] - setText(findTestObject("CheckoutPage/Payment Methods/inputCvv"), "657"): Text '657' is set on object 'Object Repository/CheckoutPage/Payment Methods/inputCvv'
+
+2023-05-24 13:05:40 - [MESSAGE][PASSED] - Text '657' is set on object 'Object Repository/CheckoutPage/Payment Methods/inputCvv'
+
+2023-05-24 13:05:40 - [TEST_STEP][PASSED] - click(findTestObject("CheckoutPage/buttonPayNow")): Object: 'Object Repository/CheckoutPage/buttonPayNow' is clicked on
+
+2023-05-24 13:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/buttonPayNow' is clicked on
+
+2023-05-24 13:05:43 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2023-05-24 13:05:58 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2023-05-24 13:05:58 - [TEST_STEP][PASSED] - script = null: null
+
+2023-05-24 13:05:58 - [TEST_STEP][FAILED] - try: Unable to execute JavaScript. (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:4873)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$8.call(Unknown Source)
+	at II Test Case (View My Orders).run(II Test Case (View My Orders):296)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684926255351.run(TempTestSuite1684926255351.groovy:36)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'checkout')
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FINMX-L12', ip: '192.168.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\WIN10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 02f492e4fd8e0673792a946d20bbc2ac
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.doCall(ExecuteJavascriptKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.call(ExecuteJavascriptKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:4873)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$8.call(Unknown Source)
+	at Script1682598283514.run(Script1682598283514.groovy:296)
+	... 13 more
+)
+
+2023-05-24 13:05:58 - [TEST_STEP][FAILED] - script = executeJavaScript("return JSON.parse(JSON.parse(localStorage.getItem('persist:og')).checkout).paymentResponse.status_code;", null): Unable to execute JavaScript. (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:4873)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$8.call(Unknown Source)
+	at II Test Case (View My Orders).run(II Test Case (View My Orders):296)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684926255351.run(TempTestSuite1684926255351.groovy:36)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'checkout')
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FINMX-L12', ip: '192.168.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\WIN10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 02f492e4fd8e0673792a946d20bbc2ac
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.doCall(ExecuteJavascriptKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.call(ExecuteJavascriptKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:4873)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$8.call(Unknown Source)
+	at Script1682598283514.run(Script1682598283514.groovy:296)
+	... 13 more
+)
+
+2023-05-24 13:05:58 - [MESSAGE][FAILED] - Unable to execute JavaScript. (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:4873)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$8.call(Unknown Source)
+	at II Test Case (View My Orders).run(II Test Case (View My Orders):296)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684926255351.run(TempTestSuite1684926255351.groovy:36)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'checkout')
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FINMX-L12', ip: '192.168.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\WIN10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 02f492e4fd8e0673792a946d20bbc2ac
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.doCall(ExecuteJavascriptKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword$_executeJavascript_closure1.call(ExecuteJavascriptKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:4873)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$8.call(Unknown Source)
+	at Script1682598283514.run(Script1682598283514.groovy:296)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\WIN10\\Katalon Studio\\og-bo-testing\\Reports\\20230524_125736\\BO - Smoke Test\\20230524_130415\\1684926358641.png]]
+
+2023-05-24 13:05:58 - [TEST_STEP][PASSED] - catch (Exception e): Error while loading script: Unable to execute JavaScript.
+
+2023-05-24 13:05:58 - [TEST_STEP][PASSED] - comment(Error while loading script: $e.message): Error while loading script: Unable to execute JavaScript.
+
+2023-05-24 13:05:58 - [MESSAGE][INFO] - Error while loading script: Unable to execute JavaScript.
+
+2023-05-24 13:05:58 - [TEST_STEP][PASSED] - if (script == null || script.equals("")): null
+
+2023-05-24 13:05:58 - [TEST_STEP][PASSED] - script = "0": null
+
+2023-05-24 13:05:58 - [TEST_STEP][PASSED] - statusCode = Integer.parseInt(script): null
+
+2023-05-24 13:05:58 - [TEST_STEP][PASSED] - if (statusCode == 0): Object 'Object Repository/Header/iconUserProfile' is visible
+
+2023-05-24 13:05:58 - [TEST_STEP][PASSED] - println("Script: " + script): null
+
+2023-05-24 13:05:58 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-05-24 13:06:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-05-24 13:06:08 - [TEST_STEP][PASSED] - click(findTestObject("Page ThreeDS ACS Emulator (SafeCharge)/button3dsSuccessAuthentication")): Object: 'Object Repository/Page ThreeDS ACS Emulator (SafeCharge)/button3dsSuccessAuthentication' is clicked on
+
+2023-05-24 13:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page ThreeDS ACS Emulator (SafeCharge)/button3dsSuccessAuthentication' is clicked on
+
+2023-05-24 13:06:09 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-05-24 13:06:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-05-24 13:06:19 - [TEST_STEP][PASSED] - click(findTestObject("Page ThreeDS ACS Emulator (SafeCharge)/button3dsSubmitRedirect")): Object: 'Object Repository/Page ThreeDS ACS Emulator (SafeCharge)/button3dsSubmitRedirect' is clicked on
+
+2023-05-24 13:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page ThreeDS ACS Emulator (SafeCharge)/button3dsSubmitRedirect' is clicked on
+
+2023-05-24 13:06:20 - [TEST_STEP][PASSED] - click(findTestObject("Page ThreeDS ACS Emulator (SafeCharge)/buttonSendAnywayAllert")): Object: 'Object Repository/Page ThreeDS ACS Emulator (SafeCharge)/buttonSendAnywayAllert' is clicked on
+
+2023-05-24 13:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page ThreeDS ACS Emulator (SafeCharge)/buttonSendAnywayAllert' is clicked on
+
+2023-05-24 13:06:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Header/iconUserProfile")): Object 'Object Repository/Header/iconUserProfile' is visible
+
+2023-05-24 13:06:32 - [MESSAGE][PASSED] - Object 'Object Repository/Header/iconUserProfile' is visible
+
+2023-05-24 13:06:32 - [TEST_STEP][PASSED] - orderScriptFP = executeJavaScript("return JSON.parse(JSON.parse(localStorage.getItem('persist:og')).checkout).paymentResponse.order_number;", null): Execute JavaScript 'return JSON.parse(JSON.parse(localStorage.getItem('persist:og')).checkout).paymentResponse.order_number;' successfully
+
+2023-05-24 13:06:32 - [MESSAGE][PASSED] - Execute JavaScript 'return JSON.parse(JSON.parse(localStorage.getItem('persist:og')).checkout).paymentResponse.order_number;' successfully
+
+2023-05-24 13:06:32 - [TEST_STEP][PASSED] - orderNumberFP = Integer.parseInt(orderScriptFP): null
+
+2023-05-24 13:06:32 - [TEST_STEP][PASSED] - println("Order Number Finish-Payment: " + orderNumberFP): null
+
+2023-05-24 13:06:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Header/iconUserProfile")): Object 'Object Repository/Header/iconUserProfile' is visible
+
+2023-05-24 13:06:32 - [MESSAGE][PASSED] - Object 'Object Repository/Header/iconUserProfile' is visible
+
+2023-05-24 13:06:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FinishPaymentPage/h1Congratulations")): Object 'Object Repository/FinishPaymentPage/h1Congratulations' is visible
+
+2023-05-24 13:06:33 - [MESSAGE][PASSED] - Object 'Object Repository/FinishPaymentPage/h1Congratulations' is visible
+
+2023-05-24 13:06:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FinishPaymentPage/buttonYourOrders")): Object: 'Object Repository/FinishPaymentPage/buttonYourOrders' is clicked on
+
+2023-05-24 13:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/FinishPaymentPage/buttonYourOrders' is clicked on
+
+2023-05-24 13:06:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-05-24 13:06:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-24 13:06:41 - [TEST_STEP][PASSED] - orderScriptBO = executeJavaScript("return JSON.parse(JSON.parse(localStorage.getItem('persist:og')).orderHistory).orders.content[0].order_number;", null): Execute JavaScript 'return JSON.parse(JSON.parse(localStorage.getItem('persist:og')).orderHistory).orders.content[0].order_number;' successfully
+
+2023-05-24 13:06:41 - [MESSAGE][PASSED] - Execute JavaScript 'return JSON.parse(JSON.parse(localStorage.getItem('persist:og')).orderHistory).orders.content[0].order_number;' successfully
+
+2023-05-24 13:06:41 - [TEST_STEP][PASSED] - orderNumberBO = Integer.parseInt(orderScriptBO): null
+
+2023-05-24 13:06:41 - [TEST_STEP][PASSED] - println("Order Number BO: " + orderNumberBO): null
+
+2023-05-24 13:06:41 - [TEST_STEP][PASSED] - if (orderNumberFP == orderNumberBO): Object: 'Object Repository/BackOffice/ViewMyOrders/ahrefFirstInvoiceBO' is clicked on
+
+2023-05-24 13:06:41 - [TEST_STEP][PASSED] - println("Order Numbers match. " + orderNumberFP + " " + " - " + " " + orderNumberBO): null
+
+2023-05-24 13:06:41 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/ViewMyOrders/svg1ViewDetailOrder")): Object: 'Object Repository/BackOffice/ViewMyOrders/svg1ViewDetailOrder' is clicked on
+
+2023-05-24 13:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/ViewMyOrders/svg1ViewDetailOrder' is clicked on
+
+2023-05-24 13:06:41 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/ViewMyOrders/buttonGoBackDetailOrder")): Object: 'Object Repository/BackOffice/ViewMyOrders/buttonGoBackDetailOrder' is clicked on
+
+2023-05-24 13:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/ViewMyOrders/buttonGoBackDetailOrder' is clicked on
+
+2023-05-24 13:06:42 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/ViewMyOrders/ahrefFirstInvoiceBO")): Object: 'Object Repository/BackOffice/ViewMyOrders/ahrefFirstInvoiceBO' is clicked on
+
+2023-05-24 13:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/ViewMyOrders/ahrefFirstInvoiceBO' is clicked on
+
+2023-05-24 13:06:43 - [TEST_STEP][PASSED] - assert orderNumberFP == orderNumberBO: null
+
+2023-05-24 13:06:43 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/ViewMyOrders/ahrefFirstInvoiceBO")): Object: 'Object Repository/BackOffice/ViewMyOrders/ahrefFirstInvoiceBO' is clicked on
+
+2023-05-24 13:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/ViewMyOrders/ahrefFirstInvoiceBO' is clicked on
+
+2023-05-24 13:06:45 - [TEST_STEP][PASSED] - Start listener action : terminateRunningWebDrivers: null
+
+2023-05-24 13:06:45 - [TEST_STEP][PASSED] - cleanup(): null
+
+2023-05-24 13:06:48 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/II Test Case (View My Orders)' .
+
+2023-05-24 13:06:48 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/II Test Case (View My Orders)' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/III Test Case (View Payments)" time="7.612" classname="Test Cases/III Test Case (View Payments)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/III Test Case (View Payments) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at III Test Case (View Payments).run(III Test Case (View Payments):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684926255351.run(TempTestSuite1684926255351.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:45669
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FINMX-L12', ip: '192.168.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1501)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:343)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1683121456443.run(Script1683121456443.groovy:20)
+	... 13 more
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:45669
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	... 32 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1501)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:343)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at III Test Case (View Payments).run(III Test Case (View Payments):20)
+	... 13 more
+"/>
+         <system-out><![CDATA[2023-05-24 13:06:48 - [TEST_CASE][FAILED] - Test Cases/III Test Case (View Payments): Test Cases/III Test Case (View Payments) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at III Test Case (View Payments).run(III Test Case (View Payments):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684926255351.run(TempTestSuite1684926255351.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:45669
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FINMX-L12', ip: '192.168.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1501)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:343)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1683121456443.run(Script1683121456443.groovy:20)
+	... 13 more
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:45669
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	... 32 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1501)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:343)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at III Test Case (View Payments).run(III Test Case (View Payments):20)
+	... 13 more
+
+
+2023-05-24 13:06:48 - [TEST_STEP][FAILED] - openBrowser(""): Unable to open browser with url: '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at III Test Case (View Payments).run(III Test Case (View Payments):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684926255351.run(TempTestSuite1684926255351.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:45669
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FINMX-L12', ip: '192.168.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1501)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:343)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1683121456443.run(Script1683121456443.groovy:20)
+	... 13 more
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:45669
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	... 32 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	... 52 more
+)
+
+2023-05-24 13:06:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-24 13:06:53 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at III Test Case (View Payments).run(III Test Case (View Payments):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684926255351.run(TempTestSuite1684926255351.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:45669
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FINMX-L12', ip: '192.168.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1501)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:343)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1683121456443.run(Script1683121456443.groovy:20)
+	... 13 more
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:45669
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	... 32 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	... 52 more
+)
+
+2023-05-24 13:06:53 - [TEST_STEP][PASSED] - Start listener action : terminateRunningWebDrivers: null
+
+2023-05-24 13:06:53 - [TEST_STEP][PASSED] - cleanup(): null
+
+2023-05-24 13:06:56 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/III Test Case (View Payments)' .
+
+2023-05-24 13:06:56 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/III Test Case (View Payments)' .]]></system-out>
+         <system-err><![CDATA[2023-05-24 13:06:48 - [TEST_CASE][FAILED] - Test Cases/III Test Case (View Payments): Test Cases/III Test Case (View Payments) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at III Test Case (View Payments).run(III Test Case (View Payments):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684926255351.run(TempTestSuite1684926255351.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:45669
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FINMX-L12', ip: '192.168.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1501)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:343)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1683121456443.run(Script1683121456443.groovy:20)
+	... 13 more
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:45669
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	... 32 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1501)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:343)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at III Test Case (View Payments).run(III Test Case (View Payments):20)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IV Test Case (Privacy Communication)" time="44.648" classname="Test Cases/IV Test Case (Privacy Communication)" status="PASSED">
+         <system-out><![CDATA[2023-05-24 13:06:56 - [TEST_CASE][PASSED] - Test Cases/IV Test Case (Privacy Communication): Test Cases/IV Test Case (Privacy Communication)
+
+2023-05-24 13:06:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-24 13:06:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-24 13:06:56 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2023-05-24 13:06:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-24 13:06:57 - [TEST_STEP][PASSED] - navigateToUrl("https://ecommerce-test.softmetrixgroup.com/"): Navigate to 'https://ecommerce-test.softmetrixgroup.com/' successfully
+
+2023-05-24 13:07:00 - [MESSAGE][PASSED] - Navigate to 'https://ecommerce-test.softmetrixgroup.com/' successfully
+
+2023-05-24 13:07:00 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2023-05-24 13:07:00 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2023-05-24 13:07:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-24 13:07:00 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-24 13:07:00 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-05-24 13:07:00 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-05-24 13:07:00 - [TEST_STEP][PASSED] - shopVersion = getText(findTestObject("Footer/shopVersion")): Text of object 'Object Repository/Footer/shopVersion' is: '(1.0.0.121)'
+
+2023-05-24 13:07:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Footer/shopVersion' is: '(1.0.0.121)'
+
+2023-05-24 13:07:04 - [TEST_STEP][PASSED] - println("Version of origin/test is: " + shopVersion): null
+
+2023-05-24 13:07:04 - [TEST_STEP][PASSED] - click(findTestObject("Footer/divCountryLanguage")): Object: 'Object Repository/Footer/divCountryLanguage' is clicked on
+
+2023-05-24 13:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer/divCountryLanguage' is clicked on
+
+2023-05-24 13:07:07 - [TEST_STEP][PASSED] - click(findTestObject("CountryLanguage/select_en-PT")): Object: 'Object Repository/CountryLanguage/select_en-PT' is clicked on
+
+2023-05-24 13:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CountryLanguage/select_en-PT' is clicked on
+
+2023-05-24 13:07:08 - [TEST_STEP][PASSED] - click(findTestObject("Header/iconGuestProfile")): Object: 'Object Repository/Header/iconGuestProfile' is clicked on
+
+2023-05-24 13:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/iconGuestProfile' is clicked on
+
+2023-05-24 13:07:10 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/inputEmailLogin"), "smoketest@gmail.com"): Text 'smoketest@gmail.com' is set on object 'Object Repository/LoginPage/inputEmailLogin'
+
+2023-05-24 13:07:11 - [MESSAGE][PASSED] - Text 'smoketest@gmail.com' is set on object 'Object Repository/LoginPage/inputEmailLogin'
+
+2023-05-24 13:07:11 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/inputPasswordLogin"), "SmokeTest123@"): Text 'SmokeTest123@' is set on object 'Object Repository/LoginPage/inputPasswordLogin'
+
+2023-05-24 13:07:12 - [MESSAGE][PASSED] - Text 'SmokeTest123@' is set on object 'Object Repository/LoginPage/inputPasswordLogin'
+
+2023-05-24 13:07:12 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/svgShowPasswordLogin")): Object: 'Object Repository/LoginPage/svgShowPasswordLogin' is clicked on
+
+2023-05-24 13:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/svgShowPasswordLogin' is clicked on
+
+2023-05-24 13:07:13 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/buttonSignIn")): Object: 'Object Repository/LoginPage/buttonSignIn' is clicked on
+
+2023-05-24 13:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/buttonSignIn' is clicked on
+
+2023-05-24 13:07:13 - [TEST_STEP][PASSED] - click(findTestObject("Header/iconUserProfile")): Object: 'Object Repository/Header/iconUserProfile' is clicked on
+
+2023-05-24 13:07:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/iconUserProfile' is clicked on
+
+2023-05-24 13:07:18 - [TEST_STEP][PASSED] - click(findTestObject("Header/divAccountInformationBO")): Object: 'Object Repository/Header/divAccountInformationBO' is clicked on
+
+2023-05-24 13:07:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/divAccountInformationBO' is clicked on
+
+2023-05-24 13:07:19 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/divPrivacyCommunicationPage")): Object: 'Object Repository/BackOffice/divPrivacyCommunicationPage' is clicked on
+
+2023-05-24 13:07:20 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/divPrivacyCommunicationPage' is clicked on
+
+2023-05-24 13:07:20 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/PrivacyAndCommunication/buttonUpdate")): Object: 'Object Repository/BackOffice/PrivacyAndCommunication/buttonUpdate' is clicked on
+
+2023-05-24 13:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/PrivacyAndCommunication/buttonUpdate' is clicked on
+
+2023-05-24 13:07:21 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/PrivacyAndCommunication/divLanguageDropdown")): Object: 'Object Repository/BackOffice/PrivacyAndCommunication/divLanguageDropdown' is clicked on
+
+2023-05-24 13:07:22 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/PrivacyAndCommunication/divLanguageDropdown' is clicked on
+
+2023-05-24 13:07:22 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/PrivacyAndCommunication/divFirstLanguageSelect")): Object: 'Object Repository/BackOffice/PrivacyAndCommunication/divFirstLanguageSelect' is clicked on
+
+2023-05-24 13:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/PrivacyAndCommunication/divFirstLanguageSelect' is clicked on
+
+2023-05-24 13:07:23 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/PrivacyAndCommunication/divTimeZoneDropdown")): Object: 'Object Repository/BackOffice/PrivacyAndCommunication/divTimeZoneDropdown' is clicked on
+
+2023-05-24 13:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/PrivacyAndCommunication/divTimeZoneDropdown' is clicked on
+
+2023-05-24 13:07:23 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/PrivacyAndCommunication/div2SelectTimeZone")): Object: 'Object Repository/BackOffice/PrivacyAndCommunication/div2SelectTimeZone' is clicked on
+
+2023-05-24 13:07:26 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/PrivacyAndCommunication/div2SelectTimeZone' is clicked on
+
+2023-05-24 13:07:26 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/PrivacyAndCommunication/buttonSwitch1")): Object: 'Object Repository/BackOffice/PrivacyAndCommunication/buttonSwitch1' is clicked on
+
+2023-05-24 13:07:29 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/PrivacyAndCommunication/buttonSwitch1' is clicked on
+
+2023-05-24 13:07:29 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/PrivacyAndCommunication/buttonSwitch2")): Object: 'Object Repository/BackOffice/PrivacyAndCommunication/buttonSwitch2' is clicked on
+
+2023-05-24 13:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/PrivacyAndCommunication/buttonSwitch2' is clicked on
+
+2023-05-24 13:07:32 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/PrivacyAndCommunication/buttonSaveChanges")): Object: 'Object Repository/BackOffice/PrivacyAndCommunication/buttonSaveChanges' is clicked on
+
+2023-05-24 13:07:35 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/PrivacyAndCommunication/buttonSaveChanges' is clicked on
+
+2023-05-24 13:07:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BackOffice/PrivacyAndCommunication/assertLanguageEnglish")): Object 'Object Repository/BackOffice/PrivacyAndCommunication/assertLanguageEnglish' is visible
+
+2023-05-24 13:07:37 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/PrivacyAndCommunication/assertLanguageEnglish' is visible
+
+2023-05-24 13:07:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BackOffice/PrivacyAndCommunication/assertTimeZoneTitle")): Object 'Object Repository/BackOffice/PrivacyAndCommunication/assertTimeZoneTitle' is visible
+
+2023-05-24 13:07:38 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/PrivacyAndCommunication/assertTimeZoneTitle' is visible
+
+2023-05-24 13:07:38 - [TEST_STEP][PASSED] - Start listener action : terminateRunningWebDrivers: null
+
+2023-05-24 13:07:38 - [TEST_STEP][PASSED] - cleanup(): null
+
+2023-05-24 13:07:40 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IV Test Case (Privacy Communication)' .
+
+2023-05-24 13:07:40 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IV Test Case (Privacy Communication)' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-24 13:04:22 - [TEST_SUITE][FAILED] - BO - Smoke Test: Test Cases/III Test Case (View Payments) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at III Test Case (View Payments).run(III Test Case (View Payments):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684926255351.run(TempTestSuite1684926255351.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:45669
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FINMX-L12', ip: '192.168.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1501)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:343)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1683121456443.run(Script1683121456443.groovy:20)
+	... 13 more
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:45669
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	... 32 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1501)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:343)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at III Test Case (View Payments).run(III Test Case (View Payments):20)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2023-05-24 13:04:22 - [TEST_SUITE][FAILED] - BO - Smoke Test: Test Cases/III Test Case (View Payments) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at III Test Case (View Payments).run(III Test Case (View Payments):20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684926255351.run(TempTestSuite1684926255351.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:45669
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FINMX-L12', ip: '192.168.0.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1501)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:343)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1683121456443.run(Script1683121456443.groovy:20)
+	... 13 more
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:45669
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	... 32 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1501)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:343)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:254)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at III Test Case (View Payments).run(III Test Case (View Payments):20)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p1RemoveAddressInformation</name>
+   <tag></tag>
+   <elementGuidId>faef046c-147c-40a6-98bd-ebebd99a0a81</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[(text() = 'Remove')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.action > button > p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>ce3cff83-2522-4c6b-9402-60cf4069f877</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Remove</value>
+      <webElementGuid>d46a1d13-1786-441c-9ac7-e4843f0346ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;boMainContent--wrapper&quot;]/div[@class=&quot;boMainContent&quot;]/div[@class=&quot;boMainContent__content&quot;]/div[@class=&quot;boPages&quot;]/div[@class=&quot;accountInformation&quot;]/div[@class=&quot;accountInformation__content&quot;]/div[@class=&quot;addressInformationSection&quot;]/div[@class=&quot;addressInformationSection__content&quot;]/div[@class=&quot;addressContainers&quot;]/div[@class=&quot;addressContainers__content&quot;]/div[@class=&quot;addressBox&quot;]/div[@class=&quot;address-actions&quot;]/div[@class=&quot;action&quot;]/button[1]/p[1]</value>
+      <webElementGuid>808ea7a6-3780-4603-b38c-9eebfc1a8089</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[2]/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div/button/p</value>
+      <webElementGuid>0db844e3-0999-4d49-bbd8-015f8d876157</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//p[(text() = 'Remove')]</value>
+      <webElementGuid>f10f9f09-0773-4258-b819-dddf55e1f20a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

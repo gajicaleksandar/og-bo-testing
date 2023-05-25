@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>divAccountInformationBO</name>
+   <tag></tag>
+   <elementGuidId>3ef007e8-c843-4d09-ab2e-580330c0f1a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[(text() = 'Account Information')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.menuItem</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c33ae394-019c-46ac-a54f-1ed77798b097</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menuItem</value>
+      <webElementGuid>d276cea1-c858-4e0a-8654-87133ad125a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Account Information</value>
+      <webElementGuid>0088ebc6-afa3-408d-b924-a419044f1a54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;headerSticky&quot;)/div[@class=&quot;header-new-design__top ps-container&quot;]/div[@class=&quot;header-new-design__top__actions&quot;]/div[@class=&quot;avatarMenuItem&quot;]/div[@class=&quot;userDropdownMenu&quot;]/div[@class=&quot;userDropdownMenu__content&quot;]/div[@class=&quot;menuLinks&quot;]/div[@class=&quot;menuItem&quot;]</value>
+      <webElementGuid>63bc520f-de8d-4fdb-819b-c1cc4ab97b57</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='headerSticky']/div/div[3]/div[2]/div[2]/div[2]/div[4]/div</value>
+      <webElementGuid>99955c9c-ebbc-4112-9c94-267268b19ed9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='S'])[2]/following::div[4]</value>
+      <webElementGuid>5e572105-4aaa-4890-b617-65d487a841c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='S'])[1]/following::div[12]</value>
+      <webElementGuid>943418dc-3016-4980-8225-1264ef77ae39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your shopping on Mark Severs store | mark@getthesystem.com'])[1]/preceding::div[8]</value>
+      <webElementGuid>8fdcc32a-c581-465e-bcee-aae5485b691f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='What are you looking for?'])[1]/preceding::div[9]</value>
+      <webElementGuid>de792291-5f3d-4900-9cdc-db85b2714c59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div</value>
+      <webElementGuid>7fe9c985-9081-4b0a-9274-cd0f6d8f98ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Account Information' or . = 'Account Information')]</value>
+      <webElementGuid>f64ff012-0193-4906-9c20-cf7efc2a2355</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

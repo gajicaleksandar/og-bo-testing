@@ -1,0 +1,240 @@
+1
+00:00:00,284 --> 00:00:01,578
+1. openBrowser("")
+
+2
+00:00:01,580 --> 00:00:03,826
+5. navigateToUrl("https://ecommerce-test.softmetrixgroup.com/")
+
+3
+00:00:03,827 --> 00:00:03,848
+9. deleteAllCookies()
+
+4
+00:00:03,848 --> 00:00:03,999
+13. maximizeWindow()
+
+5
+00:00:03,999 --> 00:00:04,546
+17. refresh()
+
+6
+00:00:04,546 --> 00:00:08,224
+21. shopVersion = getText(findTestObject("Footer/shopVersion"))
+
+7
+00:00:08,225 --> 00:00:08,225
+25. println("Version of origin/test is: " + shopVersion)
+
+8
+00:00:08,227 --> 00:00:11,010
+29. click(findTestObject("Footer/divCountryLanguage"))
+
+9
+00:00:11,011 --> 00:00:12,354
+33. click(findTestObject("CountryLanguage/select_en-PT"))
+
+10
+00:00:12,355 --> 00:00:13,659
+37. click(findTestObject("Header/iconGuestProfile"))
+
+11
+00:00:13,660 --> 00:00:15,171
+41. setText(findTestObject("LoginPage/inputEmailLogin"), "smoketest@gmail.com")
+
+12
+00:00:15,172 --> 00:00:16,126
+45. setText(findTestObject("LoginPage/inputPasswordLogin"), "SmokeTest123@")
+
+13
+00:00:16,126 --> 00:00:16,639
+49. click(findTestObject("LoginPage/svgShowPasswordLogin"))
+
+14
+00:00:16,640 --> 00:00:17,186
+53. click(findTestObject("LoginPage/buttonSignIn"))
+
+15
+00:00:17,187 --> 00:00:20,094
+57. click(findTestObject("Header/iconUserProfile"))
+
+16
+00:00:20,095 --> 00:00:21,592
+61. click(findTestObject("Header/divAccountInformationBO"))
+
+17
+00:00:21,593 --> 00:00:22,580
+65. click(findTestObject("BackOffice/divAutoshipPage"))
+
+18
+00:00:22,580 --> 00:00:25,589
+69. delay(3)
+
+19
+00:00:25,590 --> 00:00:25,922
+73. StringlastAutoshipNumber = getText(findTestObject("BackOffice/Autoship/divLastAutosahipNumber"))
+
+20
+00:00:25,922 --> 00:00:25,924
+77. println(StringlastAutoshipNumber)
+
+21
+00:00:25,924 --> 00:00:25,925
+81. lastAutoshipNumber = StringlastAutoshipNumber.toInteger()
+
+22
+00:00:25,925 --> 00:00:25,926
+85. println(lastAutoshipNumber)
+
+23
+00:00:25,926 --> 00:00:26,430
+89. click(findTestObject("BackOffice/Autoship/buttonNewAutoship"))
+
+24
+00:00:26,432 --> 00:00:30,990
+93. click(findTestObject("BackOffice/Autoship/buttonFirstAddProduct"))
+
+25
+00:00:30,991 --> 00:00:33,309
+97. click(findTestObject("BackOffice/Autoship/divHeaderAutoshipBag"))
+
+26
+00:00:33,310 --> 00:00:33,925
+101. click(findTestObject("BackOffice/Autoship/buttonUpQuantity"))
+
+27
+00:00:33,925 --> 00:00:38,394
+105. click(findTestObject("BackOffice/Autoship/buttonProceedToShippingDate"))
+
+28
+00:00:38,395 --> 00:00:41,255
+109. click(findTestObject("BackOffice/Autoship/buttonSelectTodayDate"))
+
+29
+00:00:41,256 --> 00:00:44,134
+113. click(findTestObject("BackOffice/Autoship/buttonProceedToShippingAddress"))
+
+30
+00:00:44,134 --> 00:00:44,863
+117. click(findTestObject("BackOffice/Autoship/buttonCheckFirstShippingAddress"))
+
+31
+00:00:44,864 --> 00:00:47,655
+121. click(findTestObject("BackOffice/Autoship/buttonProceedToPaymentInfo"))
+
+32
+00:00:47,656 --> 00:00:48,275
+125. click(findTestObject("BackOffice/Autoship/buttonCheckFirstPaymentMethod"))
+
+33
+00:00:48,275 --> 00:00:50,280
+129. delay(2)
+
+34
+00:00:50,281 --> 00:00:50,762
+133. click(findTestObject("BackOffice/Autoship/inputCVV"))
+
+35
+00:00:50,763 --> 00:00:52,778
+137. delay(2)
+
+36
+00:00:52,779 --> 00:00:53,678
+141. setText(findTestObject("BackOffice/Autoship/inputCVV"), "333")
+
+37
+00:00:53,678 --> 00:00:54,272
+145. click(findTestObject("BackOffice/Autoship/buttonConfirmCvv"))
+
+38
+00:00:54,273 --> 00:00:57,305
+149. click(findTestObject("BackOffice/Autoship/buttonUpQuantity"))
+
+39
+00:00:57,305 --> 00:01:01,522
+153. click(findTestObject("BackOffice/Autoship/buttonSaveAutoship"))
+
+40
+00:01:01,522 --> 00:01:06,408
+157. click(findTestObject("BackOffice/Autoship/buttonFirstEditAutoship"))
+
+41
+00:01:06,409 --> 00:01:09,185
+161. click(findTestObject("BackOffice/Autoship/buttonUpQuantity"))
+
+42
+00:01:09,186 --> 00:01:12,005
+165. click(findTestObject("BackOffice/Autoship/buttonSaveAutoship"))
+
+43
+00:01:12,007 --> 00:01:14,019
+169. delay(2)
+
+44
+00:01:14,019 --> 00:01:14,501
+173. click(findTestObject("BackOffice/Autoship/inputCVV"))
+
+45
+00:01:14,502 --> 00:01:16,509
+177. delay(2)
+
+46
+00:01:16,510 --> 00:01:17,402
+181. setText(findTestObject("BackOffice/Autoship/inputCVV"), "333")
+
+47
+00:01:17,402 --> 00:01:17,891
+185. click(findTestObject("BackOffice/Autoship/buttonConfirmCvv"))
+
+48
+00:01:17,892 --> 00:01:21,122
+189. click(findTestObject("BackOffice/Autoship/buttonFirstEditAutoship"))
+
+49
+00:01:21,123 --> 00:01:22,210
+193. click(findTestObject("BackOffice/Autoship/buttonSwitchAutoship"))
+
+50
+00:01:22,211 --> 00:01:26,378
+197. click(findTestObject("BackOffice/Autoship/buttonSaveAutoship"))
+
+51
+00:01:26,379 --> 00:01:29,390
+201. delay(3)
+
+52
+00:01:29,391 --> 00:01:29,778
+205. StringlastNewAutoshipNumber = getText(findTestObject("BackOffice/Autoship/divLastAutosahipNumber"))
+
+53
+00:01:29,778 --> 00:01:29,779
+209. lastNewAutoshipNumber = StringlastNewAutoshipNumber.toInteger()
+
+54
+00:01:29,779 --> 00:01:29,780
+213. println("Last New Autoship Number: " + lastNewAutoshipNumber)
+
+55
+00:01:29,780 --> 00:01:29,782
+217. assert lastAutoshipNumber != lastNewAutoshipNumber
+
+56
+00:01:29,782 --> 00:01:29,782
+221. if (lastAutoshipNumber != lastNewAutoshipNumber)
+
+57
+00:01:29,784 --> 00:01:29,785
+1. println("New Autoship Order is created: " + lastNewAutoshipNumber)
+
+58
+00:01:29,786 --> 00:01:30,322
+225. click(findTestObject("BackOffice/Autoship/buttonFirstRemoveAutoship"))
+
+59
+00:01:30,323 --> 00:01:34,338
+229. delay(4)
+
+60
+00:01:34,340 --> 00:01:34,907
+1. cleanup()
+

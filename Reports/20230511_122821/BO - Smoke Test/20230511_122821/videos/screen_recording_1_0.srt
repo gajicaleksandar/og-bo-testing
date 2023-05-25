@@ -1,0 +1,184 @@
+1
+00:00:00,385 --> 00:00:03,004
+1. openBrowser("")
+
+2
+00:00:03,012 --> 00:00:05,846
+5. navigateToUrl("https://ecommerce-test.softmetrixgroup.com/")
+
+3
+00:00:05,846 --> 00:00:05,881
+9. deleteAllCookies()
+
+4
+00:00:05,882 --> 00:00:06,050
+13. maximizeWindow()
+
+5
+00:00:06,052 --> 00:00:06,603
+17. refresh()
+
+6
+00:00:06,604 --> 00:00:09,648
+21. delay(3)
+
+7
+00:00:09,648 --> 00:00:12,974
+25. click(findTestObject("Footer/divCountryLanguage"))
+
+8
+00:00:12,975 --> 00:00:14,276
+29. click(findTestObject("CountryLanguage/select_en-PT"))
+
+9
+00:00:14,276 --> 00:00:15,725
+33. click(findTestObject("Header/iconGuestProfile"))
+
+10
+00:00:15,726 --> 00:00:18,892
+37. click(findTestObject("LoginPage/buttonRegisterNewAccount"))
+
+11
+00:00:18,892 --> 00:00:19,971
+41. setText(findTestObject("LoginPage/inputFirstName"), "Smoke")
+
+12
+00:00:19,972 --> 00:00:20,927
+45. setText(findTestObject("LoginPage/inputLastName"), "Test")
+
+13
+00:00:20,928 --> 00:00:20,929
+49. randomEmail = Script1680713356350.generateRandomEmail(10)
+
+14
+00:00:20,929 --> 00:00:20,931
+1. allowedChars = "abcdefghijklmnopqrstuvwxyz0123456789"
+
+15
+00:00:20,931 --> 00:00:20,951
+5. email = new java.lang.StringBuilder()
+
+16
+00:00:20,951 --> 00:00:20,956
+9. random = new java.util.Random()
+
+17
+00:00:20,957 --> 00:00:20,958
+13. for ([i = 0, i < length, (i++)])
+
+18
+00:00:20,960 --> 00:00:20,966
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+19
+00:00:20,966 --> 00:00:20,967
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+20
+00:00:20,968 --> 00:00:20,968
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+21
+00:00:20,969 --> 00:00:20,970
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+22
+00:00:20,970 --> 00:00:20,971
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+23
+00:00:20,972 --> 00:00:20,973
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+24
+00:00:20,973 --> 00:00:20,974
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+25
+00:00:20,974 --> 00:00:20,976
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+26
+00:00:20,978 --> 00:00:20,979
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+27
+00:00:20,980 --> 00:00:20,980
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+28
+00:00:20,982 --> 00:00:20,983
+17. email.append("@gmail.com")
+
+29
+00:00:20,983 --> 00:00:20,984
+21. return email.toString()
+
+30
+00:00:20,985 --> 00:00:20,989
+53. println(randomEmail)
+
+31
+00:00:20,990 --> 00:00:22,057
+57. setText(findTestObject("LoginPage/inputEmailRegister"), randomEmail)
+
+32
+00:00:22,057 --> 00:00:22,058
+61. password = "SmokeTest123@"
+
+33
+00:00:22,060 --> 00:00:22,061
+65. newPassword = "Test123@"
+
+34
+00:00:22,061 --> 00:00:23,090
+69. setText(findTestObject("LoginPage/inputPasswordRegister"), password)
+
+35
+00:00:23,090 --> 00:00:24,224
+73. setText(findTestObject("LoginPage/inputConfirmPasswordRegister"), password)
+
+36
+00:00:24,225 --> 00:00:24,853
+77. click(findTestObject("LoginPage/inputEmailRegister"))
+
+37
+00:00:24,854 --> 00:00:25,556
+81. click(findTestObject("LoginPage/svgShowPasswordLogin"))
+
+38
+00:00:25,557 --> 00:00:26,064
+85. click(findTestObject("LoginPage/svgShowConfirmPasswordRegister"))
+
+39
+00:00:26,066 --> 00:00:28,796
+89. click(findTestObject("LoginPage/buttonCreateAnAccount"))
+
+40
+00:00:28,796 --> 00:00:33,808
+93. delay(5)
+
+41
+00:00:33,810 --> 00:00:34,773
+97. click(findTestObject("Header/iconUserProfile"))
+
+42
+00:00:34,775 --> 00:00:35,965
+101. click(findTestObject("Header/divAccountInformationBO"))
+
+43
+00:00:35,966 --> 00:00:36,820
+105. click(findTestObject("BackOffice/divViewMyOrdersPage"))
+
+44
+00:00:36,820 --> 00:00:37,922
+109. click(findTestObject("BackOffice/divViewPaymentsPage"))
+
+45
+00:00:37,923 --> 00:00:38,800
+113. _
+
+46
+00:00:38,801 --> 00:00:39,430
+1. cleanup()
+

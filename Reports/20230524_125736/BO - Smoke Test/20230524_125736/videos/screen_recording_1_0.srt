@@ -1,0 +1,480 @@
+1
+00:00:00,484 --> 00:00:03,400
+1. openBrowser("")
+
+2
+00:00:03,411 --> 00:00:05,636
+5. navigateToUrl("https://ecommerce-test.softmetrixgroup.com/")
+
+3
+00:00:05,637 --> 00:00:05,686
+9. deleteAllCookies()
+
+4
+00:00:05,686 --> 00:00:05,865
+13. maximizeWindow()
+
+5
+00:00:05,866 --> 00:00:06,514
+17. refresh()
+
+6
+00:00:06,515 --> 00:00:09,860
+21. shopVersion = getText(findTestObject("Footer/shopVersion"))
+
+7
+00:00:09,861 --> 00:00:09,864
+25. println("Version of origin/test is: " + shopVersion)
+
+8
+00:00:09,865 --> 00:00:12,716
+29. click(findTestObject("Footer/divCountryLanguage"))
+
+9
+00:00:12,717 --> 00:00:14,212
+33. click(findTestObject("CountryLanguage/select_en-PT"))
+
+10
+00:00:14,213 --> 00:00:15,483
+37. click(findTestObject("Header/iconGuestProfile"))
+
+11
+00:00:15,483 --> 00:00:18,941
+41. click(findTestObject("LoginPage/buttonRegisterNewAccount"))
+
+12
+00:00:18,944 --> 00:00:20,006
+45. setText(findTestObject("LoginPage/inputFirstName"), "Smoke")
+
+13
+00:00:20,006 --> 00:00:21,111
+49. setText(findTestObject("LoginPage/inputLastName"), "Test")
+
+14
+00:00:21,111 --> 00:00:21,114
+53. randomEmail = Script1680713356350.generateRandomEmail(10)
+
+15
+00:00:21,114 --> 00:00:21,117
+1. allowedChars = "abcdefghijklmnopqrstuvwxyz0123456789"
+
+16
+00:00:21,117 --> 00:00:21,162
+5. email = new java.lang.StringBuilder()
+
+17
+00:00:21,162 --> 00:00:21,173
+9. random = new java.util.Random()
+
+18
+00:00:21,175 --> 00:00:21,176
+13. for ([i = 0, i < length, (i++)])
+
+19
+00:00:21,176 --> 00:00:21,181
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+20
+00:00:21,182 --> 00:00:21,182
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+21
+00:00:21,183 --> 00:00:21,184
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+22
+00:00:21,186 --> 00:00:21,187
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+23
+00:00:21,188 --> 00:00:21,189
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+24
+00:00:21,189 --> 00:00:21,191
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+25
+00:00:21,192 --> 00:00:21,193
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+26
+00:00:21,193 --> 00:00:21,194
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+27
+00:00:21,195 --> 00:00:21,195
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+28
+00:00:21,196 --> 00:00:21,197
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+29
+00:00:21,197 --> 00:00:21,200
+17. email.append("@gmail.com")
+
+30
+00:00:21,200 --> 00:00:21,203
+21. return email.toString()
+
+31
+00:00:21,203 --> 00:00:21,206
+57. println(randomEmail)
+
+32
+00:00:21,208 --> 00:00:22,362
+61. setText(findTestObject("LoginPage/inputEmailRegister"), randomEmail)
+
+33
+00:00:22,363 --> 00:00:22,363
+65. password = "SmokeTest123@"
+
+34
+00:00:22,363 --> 00:00:22,365
+69. newPassword = "Test123@"
+
+35
+00:00:22,366 --> 00:00:23,482
+73. setText(findTestObject("LoginPage/inputPasswordRegister"), password)
+
+36
+00:00:23,483 --> 00:00:24,829
+77. setText(findTestObject("LoginPage/inputConfirmPasswordRegister"), password)
+
+37
+00:00:24,829 --> 00:00:25,571
+81. click(findTestObject("LoginPage/inputEmailRegister"))
+
+38
+00:00:25,572 --> 00:00:26,318
+85. click(findTestObject("LoginPage/svgShowPasswordLogin"))
+
+39
+00:00:26,319 --> 00:00:26,875
+89. click(findTestObject("LoginPage/svgShowConfirmPasswordRegister"))
+
+40
+00:00:26,877 --> 00:00:29,646
+93. click(findTestObject("LoginPage/buttonCreateAnAccount"))
+
+41
+00:00:29,646 --> 00:00:29,647
+97. randomEmail2 = Script1680713356350.generateRandomEmail(10)
+
+42
+00:00:29,647 --> 00:00:29,648
+1. allowedChars = "abcdefghijklmnopqrstuvwxyz0123456789"
+
+43
+00:00:29,649 --> 00:00:29,649
+5. email = new java.lang.StringBuilder()
+
+44
+00:00:29,649 --> 00:00:29,650
+9. random = new java.util.Random()
+
+45
+00:00:29,651 --> 00:00:29,652
+13. for ([i = 0, i < length, (i++)])
+
+46
+00:00:29,652 --> 00:00:29,653
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+47
+00:00:29,653 --> 00:00:29,654
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+48
+00:00:29,654 --> 00:00:29,655
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+49
+00:00:29,655 --> 00:00:29,655
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+50
+00:00:29,656 --> 00:00:29,656
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+51
+00:00:29,656 --> 00:00:29,656
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+52
+00:00:29,656 --> 00:00:29,657
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+53
+00:00:29,657 --> 00:00:29,657
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+54
+00:00:29,657 --> 00:00:29,658
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+55
+00:00:29,658 --> 00:00:29,660
+1. email.append(allowedChars.charAt(random.nextInt(allowedChars.length())))
+
+56
+00:00:29,660 --> 00:00:29,660
+17. email.append("@gmail.com")
+
+57
+00:00:29,660 --> 00:00:29,661
+21. return email.toString()
+
+58
+00:00:29,661 --> 00:00:29,662
+101. println("Generated new mail: " + randomEmail2)
+
+59
+00:00:29,663 --> 00:00:35,546
+105. isPresentAllertWindowRegistration = waitForAlert(5)
+
+60
+00:00:35,546 --> 00:00:35,548
+109. if (isPresentAllertWindowRegistration == true)
+
+61
+00:00:35,548 --> 00:00:35,548
+2. println("Alert window is not present. Email does not exist")
+
+62
+00:00:35,550 --> 00:00:38,575
+113. delay(3)
+
+63
+00:00:38,575 --> 00:00:39,080
+117. click(findTestObject("Header/iconUserProfile"))
+
+64
+00:00:39,081 --> 00:00:40,414
+121. click(findTestObject("Header/divAccountInformationBO"))
+
+65
+00:00:40,416 --> 00:00:41,355
+125. click(findTestObject("BackOffice/divViewMyOrdersPage"))
+
+66
+00:00:41,356 --> 00:00:43,407
+129. click(findTestObject("BackOffice/divViewPaymentsPage"))
+
+67
+00:00:43,407 --> 00:00:44,471
+133. click(findTestObject("BackOffice/divAutoshipPage"))
+
+68
+00:00:44,471 --> 00:00:45,370
+137. click(findTestObject("BackOffice/divPrivacyCommunicationPage"))
+
+69
+00:00:45,370 --> 00:00:46,460
+141. click(findTestObject("BackOffice/divAccountInformationPage"))
+
+70
+00:00:46,461 --> 00:00:47,327
+145. click(findTestObject("BackOffice/AccountInformation/pAddressInformationLabel"))
+
+71
+00:00:47,327 --> 00:00:48,446
+149. click(findTestObject("BackOffice/AccountInformation/AddressInformation/pAddNewAddress"))
+
+72
+00:00:48,447 --> 00:00:49,631
+153. setText(findTestObject("BackOffice/AccountInformation/AddressInformation/inputAddressTitle"), "test address")
+
+73
+00:00:49,631 --> 00:00:50,674
+157. setText(findTestObject("BackOffice/AccountInformation/AddressInformation/inputFirstName"), "smoke")
+
+74
+00:00:50,675 --> 00:00:51,758
+161. setText(findTestObject("BackOffice/AccountInformation/AddressInformation/inputLastName"), "test")
+
+75
+00:00:51,759 --> 00:00:53,223
+165. setText(findTestObject("BackOffice/AccountInformation/AddressInformation/inputPhoneNumber"), "305 345 345")
+
+76
+00:00:53,225 --> 00:00:54,507
+169. setText(findTestObject("BackOffice/AccountInformation/AddressInformation/inputStreetAddress"), "test1")
+
+77
+00:00:54,507 --> 00:00:55,457
+173. setText(findTestObject("BackOffice/AccountInformation/AddressInformation/inputApartment"), "1")
+
+78
+00:00:55,457 --> 00:00:58,301
+177. click(findTestObject("BackOffice/AccountInformation/AddressInformation/divCountryDropdown"))
+
+79
+00:00:58,303 --> 00:00:59,037
+181. click(findTestObject("BackOffice/AccountInformation/AddressInformation/divPortugalSelectCountry"))
+
+80
+00:00:59,039 --> 00:01:00,359
+185. click(findTestObject("BackOffice/AccountInformation/AddressInformation/divSelectStateDropdown"))
+
+81
+00:01:00,360 --> 00:01:01,020
+189. click(findTestObject("BackOffice/AccountInformation/AddressInformation/div1SelectState"))
+
+82
+00:01:01,021 --> 00:01:02,275
+193. setText(findTestObject("BackOffice/AccountInformation/AddressInformation/inputCity"), "Lisboa")
+
+83
+00:01:02,275 --> 00:01:03,292
+197. setText(findTestObject("BackOffice/AccountInformation/AddressInformation/inputZipOrPostalCode"), "5000")
+
+84
+00:01:03,293 --> 00:01:05,984
+201. click(findTestObject("BackOffice/AccountInformation/AddressInformation/buttonSave"))
+
+85
+00:01:05,985 --> 00:01:10,693
+205. verifyElementVisible(findTestObject("BackOffice/AccountInformation/AddressInformation/assertAddressTitle"), STOP_ON_FAILURE)
+
+86
+00:01:10,693 --> 00:01:13,392
+209. click(findTestObject("BackOffice/AccountInformation/pAccountInformationLabel"))
+
+87
+00:01:13,393 --> 00:01:13,997
+213. click(findTestObject("BackOffice/AccountInformation/AccountInformation/pUpdatePassword"))
+
+88
+00:01:13,997 --> 00:01:15,106
+217. setText(findTestObject("BackOffice/AccountInformation/AccountInformation/inputEnterOldPassword"), password)
+
+89
+00:01:15,106 --> 00:01:16,078
+221. setText(findTestObject("BackOffice/AccountInformation/AccountInformation/inputEnterNewPassword"), newPassword)
+
+90
+00:01:16,078 --> 00:01:17,027
+225. setText(findTestObject("BackOffice/AccountInformation/AccountInformation/inputReEnterNewPassword"), newPassword)
+
+91
+00:01:17,029 --> 00:01:19,761
+229. click(findTestObject("BackOffice/AccountInformation/AccountInformation/buttonSave"))
+
+92
+00:01:19,762 --> 00:01:22,765
+233. delay(3)
+
+93
+00:01:22,765 --> 00:01:23,280
+237. click(findTestObject("BackOffice/AccountInformation/AccountInformation/buttonAddMobilePhone"))
+
+94
+00:01:23,280 --> 00:01:26,296
+241. delay(3)
+
+95
+00:01:26,296 --> 00:01:27,269
+245. setText(findTestObject("BackOffice/AccountInformation/AccountInformation/inputMobilePhoneNumber"), "305 345 345")
+
+96
+00:01:27,269 --> 00:01:30,002
+249. click(findTestObject("BackOffice/AccountInformation/AccountInformation/buttonSave"))
+
+97
+00:01:30,002 --> 00:01:32,666
+253. verifyElementVisible(findTestObject("BackOffice/AccountInformation/AddressInformation/assertPhoneNumber"))
+
+98
+00:01:32,666 --> 00:01:33,166
+257. click(findTestObject("BackOffice/AccountInformation/AccountInformation/buttonRemoveMobilePhoneNumber"))
+
+99
+00:01:33,167 --> 00:01:33,813
+261. click(findTestObject("BackOffice/AccountInformation/AccountInformation/buttonAcceptRemovePhoneNumber"))
+
+100
+00:01:33,814 --> 00:01:37,981
+265. click(findTestObject("Header/iconUserProfile"))
+
+101
+00:01:37,982 --> 00:01:38,629
+269. click(findTestObject("Header/pLogOut"))
+
+102
+00:01:38,631 --> 00:01:41,298
+273. click(findTestObject("Header/iconGuestProfile"))
+
+103
+00:01:41,300 --> 00:01:41,302
+277. if (isPresentAllertWindowRegistration == true)
+
+104
+00:01:41,303 --> 00:01:42,593
+2. setText(findTestObject("LoginPage/inputEmailLogin"), randomEmail)
+
+105
+00:01:42,594 --> 00:01:43,728
+281. setText(findTestObject("LoginPage/inputPasswordLogin"), newPassword)
+
+106
+00:01:43,728 --> 00:01:44,259
+285. click(findTestObject("LoginPage/svgShowPasswordLogin"))
+
+107
+00:01:44,260 --> 00:01:44,801
+289. click(findTestObject("LoginPage/buttonSignIn"))
+
+108
+00:01:44,801 --> 00:01:49,816
+293. delay(5)
+
+109
+00:01:49,816 --> 00:01:50,316
+297. click(findTestObject("Header/iconUserProfile"))
+
+110
+00:01:50,317 --> 00:01:51,109
+301. click(findTestObject("Header/divAccountInformationBO"))
+
+111
+00:01:51,110 --> 00:01:51,880
+305. click(findTestObject("BackOffice/AccountInformation/pAccountInformationLabel"))
+
+112
+00:01:51,880 --> 00:01:54,610
+309. click(findTestObject("BackOffice/AccountInformation/AccountInformation/pUpdatePassword"))
+
+113
+00:01:54,611 --> 00:01:55,702
+313. setText(findTestObject("BackOffice/AccountInformation/AccountInformation/inputEnterOldPassword"), newPassword)
+
+114
+00:01:55,702 --> 00:01:56,681
+317. setText(findTestObject("BackOffice/AccountInformation/AccountInformation/inputEnterNewPassword"), password)
+
+115
+00:01:56,681 --> 00:01:57,634
+321. setText(findTestObject("BackOffice/AccountInformation/AccountInformation/inputReEnterNewPassword"), password)
+
+116
+00:01:57,634 --> 00:02:00,381
+325. click(findTestObject("BackOffice/AccountInformation/AccountInformation/buttonSave"))
+
+117
+00:02:00,382 --> 00:02:05,574
+329. click(findTestObject("Header/iconUserProfile"))
+
+118
+00:02:05,575 --> 00:02:06,195
+333. click(findTestObject("Header/pLogOut"))
+
+119
+00:02:06,195 --> 00:02:08,593
+337. verifyElementVisible(findTestObject("Header/iconGuestProfile"), STOP_ON_FAILURE)
+
+120
+00:02:08,595 --> 00:02:09,415
+1. cleanup()
+

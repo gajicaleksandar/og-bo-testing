@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>divAccountInformationPage</name>
+   <tag></tag>
+   <elementGuidId>a76c5f1c-150a-4d1a-9ea8-30192a8fada4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[(text() = 'Account Information' or . = 'Account Information')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>9c8cc983-3829-4b02-9d48-9a2c50585fba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Account Information</value>
+      <webElementGuid>2e7a2219-169a-4131-a8f0-be59dd4b873d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;BOHeaderLayout&quot;]/div[@class=&quot;tabletAndMobileHeader&quot;]/div[@class=&quot;backofficeHeader&quot;]/div[@class=&quot;backofficeHeader__content&quot;]/div[@class=&quot;desktopMenu&quot;]/div[@class=&quot;desktopMenu__content&quot;]/div[@class=&quot;menuLinks&quot;]/ul[1]/a[1]/li[1]</value>
+      <webElementGuid>051b393b-0c63-4332-90b0-68c6d09c8a32</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div/div/div/div/div/ul/a/li</value>
+      <webElementGuid>f06f4dfd-e438-46da-9cb4-1a4ed764cc34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your shopping on Mark Severs store | mark@getthesystem.com'])[1]/following::li[1]</value>
+      <webElementGuid>2b896846-1970-4367-a438-3cb93d425248</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='S'])[1]/following::li[1]</value>
+      <webElementGuid>4a2f3091-230c-4539-9ebf-fa4c7180fcc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View My Orders'])[1]/preceding::li[1]</value>
+      <webElementGuid>234a47d9-6eef-4750-b11f-abe342aff792</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li</value>
+      <webElementGuid>246b6d23-71e8-4a16-b1a7-925bfd3a205b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Account Information' or . = 'Account Information')]</value>
+      <webElementGuid>48a31505-eba3-4947-8ad0-aeb44f82e51c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

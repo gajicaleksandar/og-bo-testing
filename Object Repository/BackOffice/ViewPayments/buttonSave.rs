@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>buttonSave</name>
+   <tag></tag>
+   <elementGuidId>30260c81-1a25-4977-b4d1-a6ad5bb64dad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@class= 'og-button undefined false og-primary medium ']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-button.p-component.save</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fd84e368-c720-4f20-a152-123ca3a7e446</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Save</value>
+      <webElementGuid>35479dcd-1cbc-4388-bba8-1459f0b78239</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-button p-component  save</value>
+      <webElementGuid>07c7cd16-07d6-40d3-ac94-5fb9015de6e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>8600604d-49c6-4d49-931c-87988fcd49b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save</value>
+      <webElementGuid>c930389f-d466-4022-87a4-c7b80fad51e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;boMainContent--wrapper&quot;]/div[@class=&quot;boMainContent&quot;]/div[@class=&quot;boMainContent__content&quot;]/div[@class=&quot;boPages&quot;]/div[@class=&quot;viewPayment&quot;]/div[@class=&quot;viewPayment__content&quot;]/div[@class=&quot;paper__body&quot;]/div[@class=&quot;paper__body__content&quot;]/div[@class=&quot;paper__body__content-body&quot;]/div[@class=&quot;formWrapper&quot;]/div[@class=&quot;billingAddress&quot;]/div[@class=&quot;cardInformationForm&quot;]/div[@class=&quot;cardInformationForm__content&quot;]/form[1]/div[@class=&quot;leftSide&quot;]/div[@class=&quot;loadAddress&quot;]/div[@class=&quot;actions&quot;]/button[@class=&quot;p-button p-component  save&quot;]</value>
+      <webElementGuid>71f5ee81-a9db-4ba3-b50f-894880421c12</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>7865d40a-454e-4554-b5a5-6d72f0ccd558</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/form/div/div[2]/div[3]/button</value>
+      <webElementGuid>bab6b6b0-9ec6-4cac-ab1d-2e637282a312</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Address'])[1]/following::button[1]</value>
+      <webElementGuid>19199499-c54a-4268-a4be-431cf5c1c750</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sdfdsf'])[1]/following::button[1]</value>
+      <webElementGuid>b80e3453-8b0a-4d2a-8cc3-c78e682ae947</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
+      <webElementGuid>29ee452f-ee92-4f98-869d-0477e00102d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>9c78343a-71de-4d22-b337-cda8ea5a7051</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Save' or . = 'Save')]</value>
+      <webElementGuid>8a7a6750-e671-4f16-9bf7-a32de18bf78e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//button[@class='p-button p-component  save']</value>
+      <webElementGuid>b7b7ab59-20c0-460b-86a9-23da04046bc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//button[@class= 'og-button undefined false og-primary medium ']</value>
+      <webElementGuid>e8d6f27c-5eaa-4ceb-b453-ad0281853384</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

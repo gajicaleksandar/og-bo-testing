@@ -1,0 +1,216 @@
+1
+00:00:00,427 --> 00:00:03,256
+1. openBrowser("")
+
+2
+00:00:03,263 --> 00:00:05,610
+5. navigateToUrl("https://ecommerce-test.softmetrixgroup.com/")
+
+3
+00:00:05,610 --> 00:00:05,653
+9. deleteAllCookies()
+
+4
+00:00:05,653 --> 00:00:05,832
+13. maximizeWindow()
+
+5
+00:00:05,833 --> 00:00:06,412
+17. refresh()
+
+6
+00:00:06,413 --> 00:00:13,157
+21. shopVersion = getText(findTestObject("Footer/shopVersion"))
+
+7
+00:00:13,157 --> 00:00:13,161
+25. println("Version of origin/test is: " + shopVersion)
+
+8
+00:00:13,161 --> 00:00:16,020
+29. click(findTestObject("Footer/divCountryLanguage"))
+
+9
+00:00:16,030 --> 00:00:17,391
+33. click(findTestObject("CountryLanguage/select_en-PT"))
+
+10
+00:00:17,393 --> 00:00:18,774
+37. click(findTestObject("Header/iconGuestProfile"))
+
+11
+00:00:18,774 --> 00:00:20,723
+41. setText(findTestObject("LoginPage/inputEmailLogin"), "smoketest@gmail.com")
+
+12
+00:00:20,724 --> 00:00:21,730
+45. setText(findTestObject("LoginPage/inputPasswordLogin"), "SmokeTest123@")
+
+13
+00:00:21,730 --> 00:00:22,275
+49. click(findTestObject("LoginPage/svgShowPasswordLogin"))
+
+14
+00:00:22,275 --> 00:00:22,822
+53. click(findTestObject("LoginPage/buttonSignIn"))
+
+15
+00:00:22,823 --> 00:00:28,633
+57. click(findTestObject("Header/iconUserProfile"))
+
+16
+00:00:28,633 --> 00:00:29,823
+61. click(findTestObject("Header/divAccountInformationBO"))
+
+17
+00:00:29,823 --> 00:00:30,723
+65. click(findTestObject("BackOffice/divViewMyOrdersPage"))
+
+18
+00:00:30,724 --> 00:00:31,955
+69. click(findTestObject("BackOffice/ViewMyOrders/svg1ViewDetailOrder"))
+
+19
+00:00:31,956 --> 00:00:34,990
+73. delay(3)
+
+20
+00:00:34,992 --> 00:00:35,375
+77. verifyElementVisible(findTestObject("BackOffice/ViewMyOrders/assertViewOrder"))
+
+21
+00:00:35,375 --> 00:00:35,890
+81. click(findTestObject("BackOffice/ViewMyOrders/buttonGoBackDetailOrder"))
+
+22
+00:00:35,890 --> 00:00:35,931
+85. invoice_number = executeJavaScript("return JSON.parse(JSON.parse(localStorage.getItem('persist:og')).orderHistory).orders.content[0].invoice_number;", null)
+
+23
+00:00:35,931 --> 00:00:35,932
+89. println(invoice_number)
+
+24
+00:00:35,933 --> 00:00:36,540
+93. click(findTestObject("BackOffice/ViewMyOrders/button1RepeatOrder"))
+
+25
+00:00:36,541 --> 00:00:39,011
+97. click(findTestObject("BackOffice/ViewMyOrders/RepeatOrder/iconUpQuantity"))
+
+26
+00:00:39,011 --> 00:00:39,619
+101. click(findTestObject("BackOffice/ViewMyOrders/RepeatOrder/buttonCheckout"))
+
+27
+00:00:39,620 --> 00:00:43,331
+105. click(findTestObject("BackOffice/ViewMyOrders/RepeatOrder/buttonCheckout"))
+
+28
+00:00:43,332 --> 00:00:48,336
+109. delay(5)
+
+29
+00:00:48,336 --> 00:00:48,359
+113. urlCheckout = getUrl()
+
+30
+00:00:48,359 --> 00:00:48,360
+117. println(urlCheckout)
+
+31
+00:00:48,360 --> 00:00:48,362
+121. if (urlCheckout.contains("checkout"))
+
+32
+00:00:48,362 --> 00:00:48,363
+2. println("Checkout page is not opened")
+
+33
+00:00:48,363 --> 00:00:51,376
+6. delay(3)
+
+34
+00:00:51,377 --> 00:00:51,897
+10. click(findTestObject("BackOffice/ViewMyOrders/button1RepeatOrder"))
+
+35
+00:00:51,898 --> 00:00:54,911
+14. click(findTestObject("BackOffice/ViewMyOrders/RepeatOrder/iconUpQuantity"))
+
+36
+00:00:54,913 --> 00:00:55,521
+18. click(findTestObject("BackOffice/ViewMyOrders/RepeatOrder/buttonCheckout"))
+
+37
+00:00:55,522 --> 00:00:58,220
+22. click(findTestObject("BackOffice/ViewMyOrders/RepeatOrder/buttonCheckout"))
+
+38
+00:00:58,220 --> 00:01:01,229
+26. delay(3)
+
+39
+00:01:01,229 --> 00:01:01,230
+125. if (invoice_number.contains("US"))
+
+40
+00:01:01,231 --> 00:01:01,232
+1. println("This order is from: USA - " + invoice_number)
+
+41
+00:01:01,232 --> 00:01:02,287
+5. setText(findTestObject("CheckoutPage/Contact Information/inputPhoneNumberContact"), "8065464645")
+
+42
+00:01:02,287 --> 00:01:03,254
+9. setText(findTestObject("CheckoutPage/Shipping Addres/Shipping/inputShippingFirstName"), "smoke")
+
+43
+00:01:03,254 --> 00:01:04,218
+13. setText(findTestObject("CheckoutPage/Shipping Addres/Shipping/inputShippingLastName"), "test")
+
+44
+00:01:04,218 --> 00:01:04,743
+17. clearText(findTestObject("CheckoutPage/Shipping Addres/Shipping/inputPhoneNumberShipping"), STOP_ON_FAILURE)
+
+45
+00:01:04,743 --> 00:01:05,762
+21. setText(findTestObject("CheckoutPage/Shipping Addres/Shipping/inputPhoneNumberShipping"), "065464645")
+
+46
+00:01:05,763 --> 00:01:06,779
+25. setText(findTestObject("CheckoutPage/Shipping Addres/Shipping/inputShippingAddress"), "3240 Arville St")
+
+47
+00:01:06,780 --> 00:01:07,828
+29. setText(findTestObject("CheckoutPage/Shipping Addres/Shipping/inputShippingApartment"), "apartment test 1")
+
+48
+00:01:07,828 --> 00:01:10,621
+33. click(findTestObject("CheckoutPage/Shipping Addres/Shipping/divStateDropdown"))
+
+49
+00:01:10,622 --> 00:01:11,235
+37. click(findTestObject("CheckoutPage/Shipping Addres/Shipping/div2SelectState"))
+
+50
+00:01:11,237 --> 00:01:12,423
+41. setText(findTestObject("CheckoutPage/Shipping Addres/Shipping/inputCity"), "Las Vegas")
+
+51
+00:01:12,423 --> 00:01:13,421
+45. setText(findTestObject("CheckoutPage/Shipping Addres/Shipping/inputShippingPostalCode"), "89102-6801")
+
+52
+00:01:13,422 --> 00:01:16,118
+49. click(findTestObject("CheckoutPage/Shipping Addres/buttonContinueToPayment"))
+
+53
+00:01:16,118 --> 00:01:52,338
+53. click(findTestObject("CheckoutPage/divCreditCardMethod"))
+
+54
+00:01:52,339 --> 00:01:52,949
+1. cleanup()
+

@@ -1,0 +1,222 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BO - Smoke Test,Chrome 113.0.0.0,,,2023-05-24 12:57:44,2023-05-24 13:03:33,5m - 49.754s,FAILED
+,,,,,,,
+Test Cases/I Test Case (AccountInformation),Chrome 113.0.0.0,"starting smoke test with this test case
+-change country
+-registration
+-login
+-BO
+-change password
+-change language and check categories and products",smoketest,2023-05-24 12:57:44,2023-05-24 12:59:56,2m - 11.750s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-24 12:57:45,2023-05-24 12:57:48,2.928s,PASSED
+"navigateToUrl(""https://ecommerce-test.softmetrixgroup.com/"")",Chrome 113.0.0.0,,,2023-05-24 12:57:48,2023-05-24 12:57:50,2.225s,PASSED
+deleteAllCookies(),Chrome 113.0.0.0,,,2023-05-24 12:57:50,2023-05-24 12:57:50,0.049s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-24 12:57:50,2023-05-24 12:57:50,0.180s,PASSED
+refresh(),Chrome 113.0.0.0,,,2023-05-24 12:57:50,2023-05-24 12:57:51,0.649s,PASSED
+"shopVersion = getText(findTestObject(""Footer/shopVersion""))",Chrome 113.0.0.0,,,2023-05-24 12:57:51,2023-05-24 12:57:54,3.345s,PASSED
+"println(""Version of origin/test is: "" + shopVersion)",Chrome 113.0.0.0,,,2023-05-24 12:57:54,2023-05-24 12:57:54,0.004s,PASSED
+"click(findTestObject(""Footer/divCountryLanguage""))",Chrome 113.0.0.0,,,2023-05-24 12:57:54,2023-05-24 12:57:57,2.853s,PASSED
+"click(findTestObject(""CountryLanguage/select_en-PT""))",Chrome 113.0.0.0,,,2023-05-24 12:57:57,2023-05-24 12:57:59,1.495s,PASSED
+"click(findTestObject(""Header/iconGuestProfile""))",Chrome 113.0.0.0,,,2023-05-24 12:57:59,2023-05-24 12:58:00,1.270s,PASSED
+"click(findTestObject(""LoginPage/buttonRegisterNewAccount""))",Chrome 113.0.0.0,,,2023-05-24 12:58:00,2023-05-24 12:58:03,3.462s,PASSED
+"setText(findTestObject(""LoginPage/inputFirstName""), ""Smoke"")",Chrome 113.0.0.0,,,2023-05-24 12:58:03,2023-05-24 12:58:04,1.060s,PASSED
+"setText(findTestObject(""LoginPage/inputLastName""), ""Test"")",Chrome 113.0.0.0,,,2023-05-24 12:58:04,2023-05-24 12:58:05,1.105s,PASSED
+randomEmail = Script1680713356350.generateRandomEmail(10),Chrome 113.0.0.0,,,2023-05-24 12:58:05,2023-05-24 12:58:05,0.003s,PASSED
+"allowedChars = ""abcdefghijklmnopqrstuvwxyz0123456789""",Chrome 113.0.0.0,,,2023-05-24 12:58:05,2023-05-24 12:58:05,0.001s,PASSED
+email = new java.lang.StringBuilder(),Chrome 113.0.0.0,,,2023-05-24 12:58:05,2023-05-24 12:58:06,0.045s,PASSED
+random = new java.util.Random(),Chrome 113.0.0.0,,,2023-05-24 12:58:06,2023-05-24 12:58:06,0.012s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 113.0.0.0,,,2023-05-24 12:58:06,2023-05-24 12:58:06,0.022s,PASSED
+"email.append(""@gmail.com"")",Chrome 113.0.0.0,,,2023-05-24 12:58:06,2023-05-24 12:58:06,0.003s,PASSED
+return email.toString(),Chrome 113.0.0.0,,,2023-05-24 12:58:06,2023-05-24 12:58:06,0.003s,PASSED
+println(randomEmail),Chrome 113.0.0.0,,,2023-05-24 12:58:06,2023-05-24 12:58:06,0.004s,PASSED
+"setText(findTestObject(""LoginPage/inputEmailRegister""), randomEmail)",Chrome 113.0.0.0,,,2023-05-24 12:58:06,2023-05-24 12:58:07,1.154s,PASSED
+"password = ""SmokeTest123@""",Chrome 113.0.0.0,,,2023-05-24 12:58:07,2023-05-24 12:58:07,0.002s,PASSED
+"newPassword = ""Test123@""",Chrome 113.0.0.0,,,2023-05-24 12:58:07,2023-05-24 12:58:07,0.001s,PASSED
+"setText(findTestObject(""LoginPage/inputPasswordRegister""), password)",Chrome 113.0.0.0,,,2023-05-24 12:58:07,2023-05-24 12:58:08,1.117s,PASSED
+"setText(findTestObject(""LoginPage/inputConfirmPasswordRegister""), password)",Chrome 113.0.0.0,,,2023-05-24 12:58:08,2023-05-24 12:58:09,1.347s,PASSED
+"click(findTestObject(""LoginPage/inputEmailRegister""))",Chrome 113.0.0.0,,,2023-05-24 12:58:09,2023-05-24 12:58:10,0.742s,PASSED
+"click(findTestObject(""LoginPage/svgShowPasswordLogin""))",Chrome 113.0.0.0,,,2023-05-24 12:58:10,2023-05-24 12:58:11,0.747s,PASSED
+"click(findTestObject(""LoginPage/svgShowConfirmPasswordRegister""))",Chrome 113.0.0.0,,,2023-05-24 12:58:11,2023-05-24 12:58:11,0.557s,PASSED
+"click(findTestObject(""LoginPage/buttonCreateAnAccount""))",Chrome 113.0.0.0,,,2023-05-24 12:58:11,2023-05-24 12:58:14,2.770s,PASSED
+randomEmail2 = Script1680713356350.generateRandomEmail(10),Chrome 113.0.0.0,,,2023-05-24 12:58:14,2023-05-24 12:58:14,0.000s,PASSED
+"allowedChars = ""abcdefghijklmnopqrstuvwxyz0123456789""",Chrome 113.0.0.0,,,2023-05-24 12:58:14,2023-05-24 12:58:14,0.002s,PASSED
+email = new java.lang.StringBuilder(),Chrome 113.0.0.0,,,2023-05-24 12:58:14,2023-05-24 12:58:14,0.000s,PASSED
+random = new java.util.Random(),Chrome 113.0.0.0,,,2023-05-24 12:58:14,2023-05-24 12:58:14,0.002s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 113.0.0.0,,,2023-05-24 12:58:14,2023-05-24 12:58:14,0.009s,PASSED
+"email.append(""@gmail.com"")",Chrome 113.0.0.0,,,2023-05-24 12:58:14,2023-05-24 12:58:14,0.001s,PASSED
+return email.toString(),Chrome 113.0.0.0,,,2023-05-24 12:58:14,2023-05-24 12:58:14,0.000s,PASSED
+"println(""Generated new mail: "" + randomEmail2)",Chrome 113.0.0.0,,,2023-05-24 12:58:14,2023-05-24 12:58:14,0.002s,PASSED
+isPresentAllertWindowRegistration = waitForAlert(5),Chrome 113.0.0.0,,,2023-05-24 12:58:14,2023-05-24 12:58:20,5.884s,PASSED
+if (isPresentAllertWindowRegistration == true),Chrome 113.0.0.0,,,2023-05-24 12:58:20,2023-05-24 12:58:20,0.000s,PASSED
+else,Chrome 113.0.0.0,,,2023-05-24 12:58:20,2023-05-24 12:58:20,0.002s,PASSED
+delay(3),Chrome 113.0.0.0,,,2023-05-24 12:58:20,2023-05-24 12:58:23,3.026s,PASSED
+"click(findTestObject(""Header/iconUserProfile""))",Chrome 113.0.0.0,,,2023-05-24 12:58:23,2023-05-24 12:58:23,0.504s,PASSED
+"click(findTestObject(""Header/divAccountInformationBO""))",Chrome 113.0.0.0,,,2023-05-24 12:58:23,2023-05-24 12:58:25,1.334s,PASSED
+"click(findTestObject(""BackOffice/divViewMyOrdersPage""))",Chrome 113.0.0.0,,,2023-05-24 12:58:25,2023-05-24 12:58:26,0.939s,PASSED
+"click(findTestObject(""BackOffice/divViewPaymentsPage""))",Chrome 113.0.0.0,,,2023-05-24 12:58:26,2023-05-24 12:58:28,2.052s,PASSED
+"click(findTestObject(""BackOffice/divAutoshipPage""))",Chrome 113.0.0.0,,,2023-05-24 12:58:28,2023-05-24 12:58:29,1.063s,PASSED
+"click(findTestObject(""BackOffice/divPrivacyCommunicationPage""))",Chrome 113.0.0.0,,,2023-05-24 12:58:29,2023-05-24 12:58:30,0.899s,PASSED
+"click(findTestObject(""BackOffice/divAccountInformationPage""))",Chrome 113.0.0.0,,,2023-05-24 12:58:30,2023-05-24 12:58:31,1.090s,PASSED
+"click(findTestObject(""BackOffice/AccountInformation/pAddressInformationLabel""))",Chrome 113.0.0.0,,,2023-05-24 12:58:31,2023-05-24 12:58:32,0.865s,PASSED
+"click(findTestObject(""BackOffice/AccountInformation/AddressInformation/pAddNewAddress""))",Chrome 113.0.0.0,,,2023-05-24 12:58:32,2023-05-24 12:58:33,1.120s,PASSED
+"setText(findTestObject(""BackOffice/AccountInformation/AddressInformation/inputAddressTitle""), ""test address"")",Chrome 113.0.0.0,,,2023-05-24 12:58:33,2023-05-24 12:58:34,1.185s,PASSED
+"setText(findTestObject(""BackOffice/AccountInformation/AddressInformation/inputFirstName""), ""smoke"")",Chrome 113.0.0.0,,,2023-05-24 12:58:34,2023-05-24 12:58:35,1.043s,PASSED
+"setText(findTestObject(""BackOffice/AccountInformation/AddressInformation/inputLastName""), ""test"")",Chrome 113.0.0.0,,,2023-05-24 12:58:35,2023-05-24 12:58:36,1.084s,PASSED
+"setText(findTestObject(""BackOffice/AccountInformation/AddressInformation/inputPhoneNumber""), ""305 345 345"")",Chrome 113.0.0.0,,,2023-05-24 12:58:36,2023-05-24 12:58:38,1.467s,PASSED
+"setText(findTestObject(""BackOffice/AccountInformation/AddressInformation/inputStreetAddress""), ""test1"")",Chrome 113.0.0.0,,,2023-05-24 12:58:38,2023-05-24 12:58:39,1.281s,PASSED
+"setText(findTestObject(""BackOffice/AccountInformation/AddressInformation/inputApartment""), ""1"")",Chrome 113.0.0.0,,,2023-05-24 12:58:39,2023-05-24 12:58:40,0.948s,PASSED
+"click(findTestObject(""BackOffice/AccountInformation/AddressInformation/divCountryDropdown""))",Chrome 113.0.0.0,,,2023-05-24 12:58:40,2023-05-24 12:58:43,2.847s,PASSED
+"click(findTestObject(""BackOffice/AccountInformation/AddressInformation/divPortugalSelectCountry""))",Chrome 113.0.0.0,,,2023-05-24 12:58:43,2023-05-24 12:58:43,0.735s,PASSED
+"click(findTestObject(""BackOffice/AccountInformation/AddressInformation/divSelectStateDropdown""))",Chrome 113.0.0.0,,,2023-05-24 12:58:43,2023-05-24 12:58:45,1.320s,PASSED
+"click(findTestObject(""BackOffice/AccountInformation/AddressInformation/div1SelectState""))",Chrome 113.0.0.0,,,2023-05-24 12:58:45,2023-05-24 12:58:45,0.662s,PASSED
+"setText(findTestObject(""BackOffice/AccountInformation/AddressInformation/inputCity""), ""Lisboa"")",Chrome 113.0.0.0,,,2023-05-24 12:58:45,2023-05-24 12:58:47,1.253s,PASSED
+"setText(findTestObject(""BackOffice/AccountInformation/AddressInformation/inputZipOrPostalCode""), ""5000"")",Chrome 113.0.0.0,,,2023-05-24 12:58:47,2023-05-24 12:58:48,1.018s,PASSED
+"click(findTestObject(""BackOffice/AccountInformation/AddressInformation/buttonSave""))",Chrome 113.0.0.0,,,2023-05-24 12:58:48,2023-05-24 12:58:50,2.692s,PASSED
+"verifyElementVisible(findTestObject(""BackOffice/AccountInformation/AddressInformation/assertAddressTitle""), STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-24 12:58:50,2023-05-24 12:58:55,4.708s,PASSED
+"click(findTestObject(""BackOffice/AccountInformation/pAccountInformationLabel""))",Chrome 113.0.0.0,,,2023-05-24 12:58:55,2023-05-24 12:58:58,2.698s,PASSED
+"click(findTestObject(""BackOffice/AccountInformation/AccountInformation/pUpdatePassword""))",Chrome 113.0.0.0,,,2023-05-24 12:58:58,2023-05-24 12:58:58,0.606s,PASSED
+"setText(findTestObject(""BackOffice/AccountInformation/AccountInformation/inputEnterOldPassword""), password)",Chrome 113.0.0.0,,,2023-05-24 12:58:58,2023-05-24 12:58:59,1.107s,PASSED
+"setText(findTestObject(""BackOffice/AccountInformation/AccountInformation/inputEnterNewPassword""), newPassword)",Chrome 113.0.0.0,,,2023-05-24 12:58:59,2023-05-24 12:59:00,0.974s,PASSED
+"setText(findTestObject(""BackOffice/AccountInformation/AccountInformation/inputReEnterNewPassword""), newPassword)",Chrome 113.0.0.0,,,2023-05-24 12:59:00,2023-05-24 12:59:01,0.949s,PASSED
+"click(findTestObject(""BackOffice/AccountInformation/AccountInformation/buttonSave""))",Chrome 113.0.0.0,,,2023-05-24 12:59:01,2023-05-24 12:59:04,2.733s,PASSED
+delay(3),Chrome 113.0.0.0,,,2023-05-24 12:59:04,2023-05-24 12:59:07,3.005s,PASSED
+"click(findTestObject(""BackOffice/AccountInformation/AccountInformation/buttonAddMobilePhone""))",Chrome 113.0.0.0,,,2023-05-24 12:59:07,2023-05-24 12:59:08,0.514s,PASSED
+delay(3),Chrome 113.0.0.0,,,2023-05-24 12:59:08,2023-05-24 12:59:11,3.015s,PASSED
+"setText(findTestObject(""BackOffice/AccountInformation/AccountInformation/inputMobilePhoneNumber""), ""305 345 345"")",Chrome 113.0.0.0,,,2023-05-24 12:59:11,2023-05-24 12:59:12,0.973s,PASSED
+"click(findTestObject(""BackOffice/AccountInformation/AccountInformation/buttonSave""))",Chrome 113.0.0.0,,,2023-05-24 12:59:12,2023-05-24 12:59:14,2.732s,PASSED
+"verifyElementVisible(findTestObject(""BackOffice/AccountInformation/AddressInformation/assertPhoneNumber""))",Chrome 113.0.0.0,,,2023-05-24 12:59:14,2023-05-24 12:59:17,2.664s,PASSED
+"click(findTestObject(""BackOffice/AccountInformation/AccountInformation/buttonRemoveMobilePhoneNumber""))",Chrome 113.0.0.0,,,2023-05-24 12:59:17,2023-05-24 12:59:18,0.501s,PASSED
+"click(findTestObject(""BackOffice/AccountInformation/AccountInformation/buttonAcceptRemovePhoneNumber""))",Chrome 113.0.0.0,,,2023-05-24 12:59:18,2023-05-24 12:59:18,0.647s,PASSED
+"click(findTestObject(""Header/iconUserProfile""))",Chrome 113.0.0.0,,,2023-05-24 12:59:18,2023-05-24 12:59:22,4.168s,PASSED
+"click(findTestObject(""Header/pLogOut""))",Chrome 113.0.0.0,,,2023-05-24 12:59:22,2023-05-24 12:59:23,0.649s,PASSED
+"click(findTestObject(""Header/iconGuestProfile""))",Chrome 113.0.0.0,,,2023-05-24 12:59:23,2023-05-24 12:59:26,2.670s,PASSED
+if (isPresentAllertWindowRegistration == true),Chrome 113.0.0.0,,,2023-05-24 12:59:26,2023-05-24 12:59:26,0.001s,PASSED
+else,Chrome 113.0.0.0,,,2023-05-24 12:59:26,2023-05-24 12:59:27,1.292s,PASSED
+"setText(findTestObject(""LoginPage/inputPasswordLogin""), newPassword)",Chrome 113.0.0.0,,,2023-05-24 12:59:27,2023-05-24 12:59:28,1.134s,PASSED
+"click(findTestObject(""LoginPage/svgShowPasswordLogin""))",Chrome 113.0.0.0,,,2023-05-24 12:59:28,2023-05-24 12:59:29,0.531s,PASSED
+"click(findTestObject(""LoginPage/buttonSignIn""))",Chrome 113.0.0.0,,,2023-05-24 12:59:29,2023-05-24 12:59:29,0.541s,PASSED
+delay(5),Chrome 113.0.0.0,,,2023-05-24 12:59:29,2023-05-24 12:59:34,5.015s,PASSED
+"click(findTestObject(""Header/iconUserProfile""))",Chrome 113.0.0.0,,,2023-05-24 12:59:34,2023-05-24 12:59:35,0.500s,PASSED
+"click(findTestObject(""Header/divAccountInformationBO""))",Chrome 113.0.0.0,,,2023-05-24 12:59:35,2023-05-24 12:59:35,0.793s,PASSED
+"click(findTestObject(""BackOffice/AccountInformation/pAccountInformationLabel""))",Chrome 113.0.0.0,,,2023-05-24 12:59:35,2023-05-24 12:59:36,0.769s,PASSED
+"click(findTestObject(""BackOffice/AccountInformation/AccountInformation/pUpdatePassword""))",Chrome 113.0.0.0,,,2023-05-24 12:59:36,2023-05-24 12:59:39,2.731s,PASSED
+"setText(findTestObject(""BackOffice/AccountInformation/AccountInformation/inputEnterOldPassword""), newPassword)",Chrome 113.0.0.0,,,2023-05-24 12:59:39,2023-05-24 12:59:40,1.091s,PASSED
+"setText(findTestObject(""BackOffice/AccountInformation/AccountInformation/inputEnterNewPassword""), password)",Chrome 113.0.0.0,,,2023-05-24 12:59:40,2023-05-24 12:59:41,0.979s,PASSED
+"setText(findTestObject(""BackOffice/AccountInformation/AccountInformation/inputReEnterNewPassword""), password)",Chrome 113.0.0.0,,,2023-05-24 12:59:41,2023-05-24 12:59:42,0.954s,PASSED
+"click(findTestObject(""BackOffice/AccountInformation/AccountInformation/buttonSave""))",Chrome 113.0.0.0,,,2023-05-24 12:59:42,2023-05-24 12:59:45,2.747s,PASSED
+"click(findTestObject(""Header/iconUserProfile""))",Chrome 113.0.0.0,,,2023-05-24 12:59:45,2023-05-24 12:59:50,5.193s,PASSED
+"click(findTestObject(""Header/pLogOut""))",Chrome 113.0.0.0,,,2023-05-24 12:59:50,2023-05-24 12:59:51,0.620s,PASSED
+"verifyElementVisible(findTestObject(""Header/iconGuestProfile""), STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-24 12:59:51,2023-05-24 12:59:53,2.397s,PASSED
+Start listener action : terminateRunningWebDrivers,Chrome 113.0.0.0,,,2023-05-24 12:59:53,2023-05-24 12:59:54,0.822s,PASSED
+Video,Chrome 113.0.0.0,,,2023-05-24 12:59:56,2023-05-24 12:59:56,0.000s,PASSED
+,,,,,,,
+Test Cases/II Test Case (View My Orders),Chrome 113.0.0.0,,,2023-05-24 12:59:56,2023-05-24 13:00:03,7.571s,FAILED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-24 12:59:56,2023-05-24 13:00:01,4.621s,FAILED
+Start listener action : terminateRunningWebDrivers,Chrome 113.0.0.0,,,2023-05-24 13:00:01,2023-05-24 13:00:01,0.484s,PASSED
+Video,Chrome 113.0.0.0,,,2023-05-24 13:00:03,2023-05-24 13:00:03,0.000s,PASSED
+,,,,,,,
+Test Cases/III Test Case (View Payments),Chrome 113.0.0.0,,,2023-05-24 13:00:03,2023-05-24 13:01:37,1m - 33.438s,FAILED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-24 13:00:04,2023-05-24 13:00:05,1.320s,PASSED
+"navigateToUrl(""https://ecommerce-test.softmetrixgroup.com/"")",Chrome 113.0.0.0,,,2023-05-24 13:00:05,2023-05-24 13:00:08,3.283s,PASSED
+deleteAllCookies(),Chrome 113.0.0.0,,,2023-05-24 13:00:08,2023-05-24 13:00:08,0.035s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-24 13:00:08,2023-05-24 13:00:09,0.210s,PASSED
+refresh(),Chrome 113.0.0.0,,,2023-05-24 13:00:09,2023-05-24 13:00:09,0.647s,PASSED
+"shopVersion = getText(findTestObject(""Footer/shopVersion""))",Chrome 113.0.0.0,,,2023-05-24 13:00:09,2023-05-24 13:00:14,4.298s,PASSED
+"println(""Version of origin/test is: "" + shopVersion)",Chrome 113.0.0.0,,,2023-05-24 13:00:14,2023-05-24 13:00:14,0.001s,PASSED
+"click(findTestObject(""Footer/divCountryLanguage""))",Chrome 113.0.0.0,,,2023-05-24 13:00:14,2023-05-24 13:00:16,2.784s,PASSED
+"click(findTestObject(""CountryLanguage/select_en-PT""))",Chrome 113.0.0.0,,,2023-05-24 13:00:16,2023-05-24 13:00:18,1.744s,PASSED
+"click(findTestObject(""Header/iconGuestProfile""))",Chrome 113.0.0.0,,,2023-05-24 13:00:18,2023-05-24 13:00:19,1.204s,PASSED
+"setText(findTestObject(""LoginPage/inputEmailLogin""), ""smoketest@gmail.com"")",Chrome 113.0.0.0,,,2023-05-24 13:00:19,2023-05-24 13:00:21,2.041s,PASSED
+"setText(findTestObject(""LoginPage/inputPasswordLogin""), ""SmokeTest123@"")",Chrome 113.0.0.0,,,2023-05-24 13:00:21,2023-05-24 13:00:22,1.048s,PASSED
+"click(findTestObject(""LoginPage/svgShowPasswordLogin""))",Chrome 113.0.0.0,,,2023-05-24 13:00:22,2023-05-24 13:00:23,0.532s,PASSED
+"click(findTestObject(""LoginPage/buttonSignIn""))",Chrome 113.0.0.0,,,2023-05-24 13:00:23,2023-05-24 13:00:24,0.579s,PASSED
+"click(findTestObject(""Header/iconUserProfile""))",Chrome 113.0.0.0,,,2023-05-24 13:00:24,2023-05-24 13:00:28,4.702s,PASSED
+"click(findTestObject(""Header/divAccountInformationBO""))",Chrome 113.0.0.0,,,2023-05-24 13:00:28,2023-05-24 13:00:29,0.940s,PASSED
+"click(findTestObject(""BackOffice/divViewPaymentsPage""))",Chrome 113.0.0.0,,,2023-05-24 13:00:29,2023-05-24 13:00:30,1.224s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/ViewPayments/buttonAddNewPaymentMethod""))",Chrome 113.0.0.0,,,2023-05-24 13:00:30,2023-05-24 13:00:32,1.242s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/ViewPayments/divFirstSelectPaymentMethod""))",Chrome 113.0.0.0,,,2023-05-24 13:00:32,2023-05-24 13:00:32,0.631s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/ViewPayments/buttonContinue""))",Chrome 113.0.0.0,,,2023-05-24 13:00:32,2023-05-24 13:00:33,0.546s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-24 13:00:33,2023-05-24 13:00:35,2.017s,PASSED
+"setText(findTestObject(""Object Repository/BackOffice/ViewPayments/inputCardHolder""), ""CL-BRW2"")",Chrome 113.0.0.0,,,2023-05-24 13:00:35,2023-05-24 13:00:36,1.115s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-24 13:00:36,2023-05-24 13:00:38,2.010s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/ViewPayments/inputCardNumber""), STOP_ON_FAILURE)",Chrome 113.0.0.0,,,2023-05-24 13:00:38,2023-05-24 13:00:38,0.511s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-24 13:00:38,2023-05-24 13:00:41,2.016s,PASSED
+"setText(findTestObject(""Object Repository/BackOffice/ViewPayments/inputCardNumber""), ""1111-1111-1111-1111"")",Chrome 113.0.0.0,,,2023-05-24 13:00:41,2023-05-24 13:00:42,1.286s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-24 13:00:42,2023-05-24 13:00:44,2.004s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/ViewPayments/spanMonthDropdown""))",Chrome 113.0.0.0,,,2023-05-24 13:00:44,2023-05-24 13:00:44,0.547s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/ViewPayments/li4SelectMonth""))",Chrome 113.0.0.0,,,2023-05-24 13:00:44,2023-05-24 13:00:45,0.692s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/ViewPayments/spanYearDropdown""))",Chrome 113.0.0.0,,,2023-05-24 13:00:45,2023-05-24 13:00:46,0.784s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/ViewPayments/li2027SelectYear""))",Chrome 113.0.0.0,,,2023-05-24 13:00:46,2023-05-24 13:00:47,1.507s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-24 13:00:47,2023-05-24 13:00:49,2.010s,PASSED
+"setText(findTestObject(""Object Repository/BackOffice/ViewPayments/inputCVV""), ""252"")",Chrome 113.0.0.0,,,2023-05-24 13:00:49,2023-05-24 13:00:53,4.030s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-24 13:00:53,2023-05-24 13:00:55,2.017s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/ViewPayments/spanAddressDropdown""))",Chrome 113.0.0.0,,,2023-05-24 13:00:55,2023-05-24 13:01:34,38.567s,FAILED
+Start listener action : terminateRunningWebDrivers,Chrome 113.0.0.0,,,2023-05-24 13:01:34,2023-05-24 13:01:35,0.907s,PASSED
+Video,Chrome 113.0.0.0,,,2023-05-24 13:01:37,2023-05-24 13:01:37,0.001s,PASSED
+,,,,,,,
+Test Cases/IV Test Case (Privacy Communication),Chrome 113.0.0.0,,,2023-05-24 13:01:37,2023-05-24 13:01:45,7.655s,FAILED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-24 13:01:37,2023-05-24 13:01:42,4.616s,FAILED
+Start listener action : terminateRunningWebDrivers,Chrome 113.0.0.0,,,2023-05-24 13:01:42,2023-05-24 13:01:43,0.638s,PASSED
+Video,Chrome 113.0.0.0,,,2023-05-24 13:01:45,2023-05-24 13:01:45,0.000s,PASSED
+,,,,,,,
+Test Cases/V Test Case (Autoship),Chrome 113.0.0.0,,,2023-05-24 13:01:45,2023-05-24 13:03:33,1m - 48.877s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-24 13:01:45,2023-05-24 13:01:46,1.274s,PASSED
+"navigateToUrl(""https://ecommerce-test.softmetrixgroup.com/"")",Chrome 113.0.0.0,,,2023-05-24 13:01:46,2023-05-24 13:01:48,2.216s,PASSED
+deleteAllCookies(),Chrome 113.0.0.0,,,2023-05-24 13:01:48,2023-05-24 13:01:48,0.019s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-24 13:01:48,2023-05-24 13:01:49,0.157s,PASSED
+refresh(),Chrome 113.0.0.0,,,2023-05-24 13:01:49,2023-05-24 13:01:49,0.631s,PASSED
+"shopVersion = getText(findTestObject(""Footer/shopVersion""))",Chrome 113.0.0.0,,,2023-05-24 13:01:49,2023-05-24 13:01:54,4.665s,PASSED
+"println(""Version of origin/test is: "" + shopVersion)",Chrome 113.0.0.0,,,2023-05-24 13:01:54,2023-05-24 13:01:54,0.001s,PASSED
+"click(findTestObject(""Footer/divCountryLanguage""))",Chrome 113.0.0.0,,,2023-05-24 13:01:54,2023-05-24 13:01:59,5.063s,PASSED
+"click(findTestObject(""CountryLanguage/select_en-PT""))",Chrome 113.0.0.0,,,2023-05-24 13:01:59,2023-05-24 13:02:03,3.850s,PASSED
+"click(findTestObject(""Header/iconGuestProfile""))",Chrome 113.0.0.0,,,2023-05-24 13:02:03,2023-05-24 13:02:04,1.149s,PASSED
+"setText(findTestObject(""LoginPage/inputEmailLogin""), ""smoketest@gmail.com"")",Chrome 113.0.0.0,,,2023-05-24 13:02:04,2023-05-24 13:02:05,1.505s,PASSED
+"setText(findTestObject(""LoginPage/inputPasswordLogin""), ""SmokeTest123@"")",Chrome 113.0.0.0,,,2023-05-24 13:02:05,2023-05-24 13:02:06,0.992s,PASSED
+"click(findTestObject(""LoginPage/svgShowPasswordLogin""))",Chrome 113.0.0.0,,,2023-05-24 13:02:06,2023-05-24 13:02:07,0.528s,PASSED
+"click(findTestObject(""LoginPage/buttonSignIn""))",Chrome 113.0.0.0,,,2023-05-24 13:02:07,2023-05-24 13:02:07,0.556s,PASSED
+"click(findTestObject(""Header/iconUserProfile""))",Chrome 113.0.0.0,,,2023-05-24 13:02:07,2023-05-24 13:02:13,5.433s,PASSED
+"click(findTestObject(""Header/divAccountInformationBO""))",Chrome 113.0.0.0,,,2023-05-24 13:02:13,2023-05-24 13:02:15,2.092s,PASSED
+"click(findTestObject(""BackOffice/divAutoshipPage""))",Chrome 113.0.0.0,,,2023-05-24 13:02:15,2023-05-24 13:02:16,1.458s,PASSED
+delay(3),Chrome 113.0.0.0,,,2023-05-24 13:02:16,2023-05-24 13:02:19,3.008s,PASSED
+"StringlastAutoshipNumber = getText(findTestObject(""BackOffice/Autoship/divLastAutosahipNumber""))",Chrome 113.0.0.0,,,2023-05-24 13:02:19,2023-05-24 13:02:20,0.350s,PASSED
+println(StringlastAutoshipNumber),Chrome 113.0.0.0,,,2023-05-24 13:02:20,2023-05-24 13:02:20,0.001s,PASSED
+lastAutoshipNumber = StringlastAutoshipNumber.toInteger(),Chrome 113.0.0.0,,,2023-05-24 13:02:20,2023-05-24 13:02:20,0.002s,PASSED
+println(lastAutoshipNumber),Chrome 113.0.0.0,,,2023-05-24 13:02:20,2023-05-24 13:02:20,0.001s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonNewAutoship""))",Chrome 113.0.0.0,,,2023-05-24 13:02:20,2023-05-24 13:02:20,0.562s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonFirstAddProduct""))",Chrome 113.0.0.0,,,2023-05-24 13:02:20,2023-05-24 13:02:25,4.486s,PASSED
+"click(findTestObject(""BackOffice/Autoship/divHeaderAutoshipBag""))",Chrome 113.0.0.0,,,2023-05-24 13:02:25,2023-05-24 13:02:27,2.092s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonUpQuantity""))",Chrome 113.0.0.0,,,2023-05-24 13:02:27,2023-05-24 13:02:28,0.620s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonProceedToShippingDate""))",Chrome 113.0.0.0,,,2023-05-24 13:02:28,2023-05-24 13:02:32,4.410s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonSelectTodayDate""))",Chrome 113.0.0.0,,,2023-05-24 13:02:32,2023-05-24 13:02:35,2.958s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonProceedToShippingAddress""))",Chrome 113.0.0.0,,,2023-05-24 13:02:35,2023-05-24 13:02:38,2.904s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonCheckFirstShippingAddress""))",Chrome 113.0.0.0,,,2023-05-24 13:02:38,2023-05-24 13:02:39,0.684s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonProceedToPaymentInfo""))",Chrome 113.0.0.0,,,2023-05-24 13:02:39,2023-05-24 13:02:41,2.914s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonCheckFirstPaymentMethod""))",Chrome 113.0.0.0,,,2023-05-24 13:02:41,2023-05-24 13:02:42,0.639s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-24 13:02:42,2023-05-24 13:02:44,2.018s,PASSED
+"click(findTestObject(""BackOffice/Autoship/inputCVV""))",Chrome 113.0.0.0,,,2023-05-24 13:02:44,2023-05-24 13:02:45,0.535s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-24 13:02:45,2023-05-24 13:02:47,2.014s,PASSED
+"setText(findTestObject(""BackOffice/Autoship/inputCVV""), ""333"")",Chrome 113.0.0.0,,,2023-05-24 13:02:47,2023-05-24 13:02:48,0.964s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonConfirmCvv""))",Chrome 113.0.0.0,,,2023-05-24 13:02:48,2023-05-24 13:02:48,0.538s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonUpQuantity""))",Chrome 113.0.0.0,,,2023-05-24 13:02:48,2023-05-24 13:02:51,3.232s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonSaveAutoship""))",Chrome 113.0.0.0,,,2023-05-24 13:02:51,2023-05-24 13:02:56,4.376s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonFirstEditAutoship""))",Chrome 113.0.0.0,,,2023-05-24 13:02:56,2023-05-24 13:03:00,4.697s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonUpQuantity""))",Chrome 113.0.0.0,,,2023-05-24 13:03:00,2023-05-24 13:03:04,3.057s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonSaveAutoship""))",Chrome 113.0.0.0,,,2023-05-24 13:03:04,2023-05-24 13:03:06,2.893s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-24 13:03:06,2023-05-24 13:03:08,2.009s,PASSED
+"click(findTestObject(""BackOffice/Autoship/inputCVV""))",Chrome 113.0.0.0,,,2023-05-24 13:03:08,2023-05-24 13:03:09,0.497s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-24 13:03:09,2023-05-24 13:03:11,2.017s,PASSED
+"setText(findTestObject(""BackOffice/Autoship/inputCVV""), ""333"")",Chrome 113.0.0.0,,,2023-05-24 13:03:11,2023-05-24 13:03:12,0.932s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonConfirmCvv""))",Chrome 113.0.0.0,,,2023-05-24 13:03:12,2023-05-24 13:03:12,0.533s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonFirstEditAutoship""))",Chrome 113.0.0.0,,,2023-05-24 13:03:12,2023-05-24 13:03:16,3.247s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonSwitchAutoship""))",Chrome 113.0.0.0,,,2023-05-24 13:03:16,2023-05-24 13:03:19,3.044s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonSaveAutoship""))",Chrome 113.0.0.0,,,2023-05-24 13:03:19,2023-05-24 13:03:23,3.843s,PASSED
+delay(3),Chrome 113.0.0.0,,,2023-05-24 13:03:23,2023-05-24 13:03:26,3.011s,PASSED
+"StringlastNewAutoshipNumber = getText(findTestObject(""BackOffice/Autoship/divLastAutosahipNumber""))",Chrome 113.0.0.0,,,2023-05-24 13:03:26,2023-05-24 13:03:26,0.489s,PASSED
+lastNewAutoshipNumber = StringlastNewAutoshipNumber.toInteger(),Chrome 113.0.0.0,,,2023-05-24 13:03:26,2023-05-24 13:03:26,0.001s,PASSED
+"println(""Last New Autoship Number: "" + lastNewAutoshipNumber)",Chrome 113.0.0.0,,,2023-05-24 13:03:26,2023-05-24 13:03:26,0.001s,PASSED
+assert lastAutoshipNumber != lastNewAutoshipNumber,Chrome 113.0.0.0,,,2023-05-24 13:03:26,2023-05-24 13:03:26,0.004s,PASSED
+if (lastAutoshipNumber != lastNewAutoshipNumber),Chrome 113.0.0.0,,,2023-05-24 13:03:26,2023-05-24 13:03:26,0.002s,PASSED
+"click(findTestObject(""BackOffice/Autoship/buttonFirstRemoveAutoship""))",Chrome 113.0.0.0,,,2023-05-24 13:03:26,2023-05-24 13:03:27,0.581s,PASSED
+delay(4),Chrome 113.0.0.0,,,2023-05-24 13:03:27,2023-05-24 13:03:31,4.011s,PASSED
+Start listener action : terminateRunningWebDrivers,Chrome 113.0.0.0,,,2023-05-24 13:03:31,2023-05-24 13:03:31,0.687s,PASSED
+Video,Chrome 113.0.0.0,,,2023-05-24 13:03:33,2023-05-24 13:03:33,0.000s,PASSED

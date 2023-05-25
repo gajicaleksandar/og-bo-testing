@@ -1,0 +1,112 @@
+1
+00:00:00,265 --> 00:00:01,552
+1. openBrowser("")
+
+2
+00:00:01,553 --> 00:00:03,569
+5. navigateToUrl("https://ecommerce-test.softmetrixgroup.com/")
+
+3
+00:00:03,570 --> 00:00:03,601
+9. deleteAllCookies()
+
+4
+00:00:03,601 --> 00:00:03,749
+13. maximizeWindow()
+
+5
+00:00:03,750 --> 00:00:04,287
+17. refresh()
+
+6
+00:00:04,288 --> 00:00:08,159
+21. shopVersion = getText(findTestObject("Footer/shopVersion"))
+
+7
+00:00:08,160 --> 00:00:08,160
+25. println("Version of origin/test is: " + shopVersion)
+
+8
+00:00:08,162 --> 00:00:10,975
+29. click(findTestObject("Footer/divCountryLanguage"))
+
+9
+00:00:10,975 --> 00:00:12,318
+33. click(findTestObject("CountryLanguage/select_en-PT"))
+
+10
+00:00:12,318 --> 00:00:13,549
+37. click(findTestObject("Header/iconGuestProfile"))
+
+11
+00:00:13,549 --> 00:00:15,055
+41. setText(findTestObject("LoginPage/inputEmailLogin"), "smoketest@gmail.com")
+
+12
+00:00:15,055 --> 00:00:16,057
+45. setText(findTestObject("LoginPage/inputPasswordLogin"), "SmokeTest123@")
+
+13
+00:00:16,057 --> 00:00:16,577
+49. click(findTestObject("LoginPage/svgShowPasswordLogin"))
+
+14
+00:00:16,579 --> 00:00:17,107
+53. click(findTestObject("LoginPage/buttonSignIn"))
+
+15
+00:00:17,107 --> 00:00:21,699
+57. click(findTestObject("Header/iconUserProfile"))
+
+16
+00:00:21,699 --> 00:00:23,194
+61. click(findTestObject("Header/divAccountInformationBO"))
+
+17
+00:00:23,195 --> 00:00:24,169
+65. click(findTestObject("BackOffice/divPrivacyCommunicationPage"))
+
+18
+00:00:24,169 --> 00:00:25,768
+69. click(findTestObject("BackOffice/PrivacyAndCommunication/buttonUpdate"))
+
+19
+00:00:25,769 --> 00:00:26,419
+73. click(findTestObject("BackOffice/PrivacyAndCommunication/divLanguageDropdown"))
+
+20
+00:00:26,420 --> 00:00:27,062
+77. click(findTestObject("BackOffice/PrivacyAndCommunication/divFirstLanguageSelect"))
+
+21
+00:00:27,062 --> 00:00:27,722
+81. click(findTestObject("BackOffice/PrivacyAndCommunication/divTimeZoneDropdown"))
+
+22
+00:00:27,722 --> 00:00:30,589
+85. click(findTestObject("BackOffice/PrivacyAndCommunication/div2SelectTimeZone"))
+
+23
+00:00:30,589 --> 00:00:33,425
+89. click(findTestObject("BackOffice/PrivacyAndCommunication/buttonSwitch1"))
+
+24
+00:00:33,426 --> 00:00:36,280
+93. click(findTestObject("BackOffice/PrivacyAndCommunication/buttonSwitch2"))
+
+25
+00:00:36,280 --> 00:00:39,146
+97. click(findTestObject("BackOffice/PrivacyAndCommunication/buttonSaveChanges"))
+
+26
+00:00:39,146 --> 00:00:41,965
+101. verifyElementVisible(findTestObject("BackOffice/PrivacyAndCommunication/assertLanguageEnglish"))
+
+27
+00:00:41,965 --> 00:00:42,324
+105. verifyElementVisible(findTestObject("BackOffice/PrivacyAndCommunication/assertTimeZoneTitle"))
+
+28
+00:00:42,324 --> 00:00:42,852
+1. cleanup()
+

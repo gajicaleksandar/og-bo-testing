@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputApartment</name>
+   <tag></tag>
+   <elementGuidId>30f9d8f2-4efb-4083-8ec7-835bda64f704</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id = 'street_address_2']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#street_address_2 > input.ant-input.ant-input-status-success.w-100.mr-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>54e299d8-131b-41c6-b8b7-652b02f3ef00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>37207585-dda0-4540-8d7f-17095aa598ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Apt, suite, unit, building, floor. etc</value>
+      <webElementGuid>cc70cc7b-0f9c-4462-a698-68e341dc2117</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-input ant-input-status-success w-100  mr-0</value>
+      <webElementGuid>a6f8f247-0e14-46ee-a836-62293a7ff657</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>1fef8e02-ce92-4109-8a81-e092dc2e82b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;street_address_2&quot;)/input[@class=&quot;ant-input ant-input-status-success w-100  mr-0&quot;]</value>
+      <webElementGuid>3b07bfa1-b33a-4203-80e2-50c0a3a79313</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='1']</value>
+      <webElementGuid>270df3dd-44ec-4e8e-ba1c-1b1b17388a76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='street_address_2']/input</value>
+      <webElementGuid>ce4fb367-061c-42cf-81e9-d57d53ead472</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/fieldset/input</value>
+      <webElementGuid>0843ebca-9104-4f80-9f6d-a13a1a0dbbcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Apt, suite, unit, building, floor. etc']</value>
+      <webElementGuid>62fb5d62-13e0-4fa9-ae0d-9aeddb721f50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//input[@id = 'street_address_2']</value>
+      <webElementGuid>cf386410-4579-48fb-bb44-1a3ad58a6523</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

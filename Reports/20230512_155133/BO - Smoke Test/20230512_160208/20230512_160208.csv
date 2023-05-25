@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BO - Smoke Test,Chrome 113.0.0.0,,,2023-05-12 16:02:16,2023-05-12 16:03:08,52.118s,PASSED
+,,,,,,,
+Test Cases/IV Test Case (Privacy Communication),Chrome 113.0.0.0,,,2023-05-12 16:02:16,2023-05-12 16:03:08,51.721s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-12 16:02:17,2023-05-12 16:02:19,2.729s,PASSED
+"navigateToUrl(""https://ecommerce-test.softmetrixgroup.com/"")",Chrome 113.0.0.0,,,2023-05-12 16:02:19,2023-05-12 16:02:22,2.349s,PASSED
+deleteAllCookies(),Chrome 113.0.0.0,,,2023-05-12 16:02:22,2023-05-12 16:02:22,0.039s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-12 16:02:22,2023-05-12 16:02:22,0.153s,PASSED
+refresh(),Chrome 113.0.0.0,,,2023-05-12 16:02:22,2023-05-12 16:02:22,0.570s,PASSED
+delay(3),Chrome 113.0.0.0,,,2023-05-12 16:02:22,2023-05-12 16:02:25,3.040s,PASSED
+"click(findTestObject(""Footer/divCountryLanguage""))",Chrome 113.0.0.0,,,2023-05-12 16:02:25,2023-05-12 16:02:31,5.146s,PASSED
+"click(findTestObject(""CountryLanguage/select_en-PT""))",Chrome 113.0.0.0,,,2023-05-12 16:02:31,2023-05-12 16:02:32,1.380s,PASSED
+"click(findTestObject(""Header/iconGuestProfile""))",Chrome 113.0.0.0,,,2023-05-12 16:02:32,2023-05-12 16:02:33,1.337s,PASSED
+"setText(findTestObject(""LoginPage/inputEmailLogin""), ""smoketest@gmail.com"")",Chrome 113.0.0.0,,,2023-05-12 16:02:33,2023-05-12 16:02:35,1.995s,PASSED
+"setText(findTestObject(""LoginPage/inputPasswordLogin""), ""SmokeTest123@"")",Chrome 113.0.0.0,,,2023-05-12 16:02:35,2023-05-12 16:02:37,1.203s,PASSED
+"click(findTestObject(""LoginPage/svgShowPasswordLogin""))",Chrome 113.0.0.0,,,2023-05-12 16:02:37,2023-05-12 16:02:37,0.526s,PASSED
+"click(findTestObject(""LoginPage/buttonSignIn""))",Chrome 113.0.0.0,,,2023-05-12 16:02:37,2023-05-12 16:02:38,0.527s,PASSED
+"click(findTestObject(""Header/iconUserProfile""))",Chrome 113.0.0.0,,,2023-05-12 16:02:38,2023-05-12 16:02:43,5.151s,PASSED
+"click(findTestObject(""Header/divAccountInformationBO""))",Chrome 113.0.0.0,,,2023-05-12 16:02:43,2023-05-12 16:02:45,2.395s,PASSED
+"click(findTestObject(""BackOffice/divPrivacyCommunicationPage""))",Chrome 113.0.0.0,,,2023-05-12 16:02:45,2023-05-12 16:02:46,1.077s,PASSED
+"click(findTestObject(""BackOffice/PrivacyAndCommunication/buttonUpdate""))",Chrome 113.0.0.0,,,2023-05-12 16:02:46,2023-05-12 16:02:48,1.918s,PASSED
+"click(findTestObject(""BackOffice/PrivacyAndCommunication/divLanguageDropdown""))",Chrome 113.0.0.0,,,2023-05-12 16:02:48,2023-05-12 16:02:49,0.673s,PASSED
+"click(findTestObject(""BackOffice/PrivacyAndCommunication/divFirstLanguageSelect""))",Chrome 113.0.0.0,,,2023-05-12 16:02:49,2023-05-12 16:02:49,0.652s,PASSED
+"click(findTestObject(""BackOffice/PrivacyAndCommunication/divTimeZoneDropdown""))",Chrome 113.0.0.0,,,2023-05-12 16:02:49,2023-05-12 16:02:50,0.635s,PASSED
+"click(findTestObject(""BackOffice/PrivacyAndCommunication/div2SelectTimeZone""))",Chrome 113.0.0.0,,,2023-05-12 16:02:50,2023-05-12 16:02:53,2.822s,PASSED
+"click(findTestObject(""BackOffice/PrivacyAndCommunication/buttonSwitch1""))",Chrome 113.0.0.0,,,2023-05-12 16:02:53,2023-05-12 16:02:56,2.892s,PASSED
+"click(findTestObject(""BackOffice/PrivacyAndCommunication/buttonSwitch2""))",Chrome 113.0.0.0,,,2023-05-12 16:02:56,2023-05-12 16:02:59,2.930s,PASSED
+"click(findTestObject(""BackOffice/PrivacyAndCommunication/buttonSaveChanges""))",Chrome 113.0.0.0,,,2023-05-12 16:02:59,2023-05-12 16:03:02,2.855s,PASSED
+"verifyElementVisible(findTestObject(""BackOffice/PrivacyAndCommunication/assertLanguageEnglish""))",Chrome 113.0.0.0,,,2023-05-12 16:03:02,2023-05-12 16:03:05,3.084s,PASSED
+"verifyElementVisible(findTestObject(""BackOffice/PrivacyAndCommunication/assertTimeZoneTitle""))",Chrome 113.0.0.0,,,2023-05-12 16:03:05,2023-05-12 16:03:05,0.374s,PASSED
+Start listener action : terminateRunningWebDrivers,Chrome 113.0.0.0,,,2023-05-12 16:03:05,2023-05-12 16:03:06,0.646s,PASSED
+Video,Chrome 113.0.0.0,,,2023-05-12 16:03:08,2023-05-12 16:03:08,0.000s,PASSED

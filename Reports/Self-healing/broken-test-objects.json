@@ -1,0 +1,174 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Organo Gold/input_Phone_form-control",
+      "brokenLocator": "//input[@value\u003d\u0027+61 (4)\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form[@id\u003d\u0027phoneNumberLabel\u0027]/div/div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Organo Gold/input_Phone_form-control_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Organo Gold/input_City_ant-input ant-input-status-succe_591622",
+      "brokenLocator": "//input[@value\u003d\u0027t\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset[@id\u003d\u0027phoneNumberLabel_city_name\u0027]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Organo Gold/input_City_ant-input ant-input-status-succe_591622_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Organo Gold/div_Credit Card",
+      "brokenLocator": "//div[@id\u003d\u0027__next\u0027]/main/div/div/div/div[2]/div[2]/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Payment\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Organo Gold/div_Credit Card_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Organo Gold/div_03",
+      "brokenLocator": "//div[(text() \u003d \u002703\u0027 or . \u003d \u002703\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027(1.0.0.1465)\u0027])[1]/following::div[20]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Organo Gold/div_New South Wales",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Australian Capital Territory\u0027])[2]/following::div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div/div[2]/div/div/div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Organo Gold/divCanadaEnglish",
+      "brokenLocator": "//a[contains(@href, \u0027/en-CA/\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/main/div/div[2]/div[4]/div[2]/div/div/div[2]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Organo Gold/divCanadaEnglish_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Organo Gold/product5",
+      "brokenLocator": "//*[@id\u003d\"__next\"]/main/div/div/div[5]/div[1]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/main/div/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Organo Gold/product5_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Organo Gold/product3",
+      "brokenLocator": "//*[@id\u003d\"__next\"]/main/div/div/div[3]/div[1]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/main/div/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Organo Gold/product3_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Organo Gold/product7",
+      "brokenLocator": "//*[@id\u003d\"__next\"]/main/div/div/div[6]/div[1]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/main/div/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Organo Gold/product7_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Organo Gold/product4",
+      "brokenLocator": "//*[@id\u003d\"__next\"]/main/div/div/div[4]/div[1]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/main/div/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Organo Gold/product4_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Organo Gold/product6",
+      "brokenLocator": "//*[@id\u003d\"__next\"]/main/div/div/div[6]/div[1]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/main/div/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Organo Gold/product6_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Organo Gold/button_Continue As Guest",
+      "brokenLocator": "//div[@id\u003d\u0027__next\u0027]/main/div/div/div/div/div[3]/form/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Email\u0027])[2]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Organo Gold/button_Continue As Guest_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Organo Gold/span_Serbia  English",
+      "brokenLocator": "//div[@id\u003d\u0027__next\u0027]/footer/div/div[5]/div/div/a/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027SUBSCRIBE\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Organo Gold/span_Serbia  English_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Organo Gold/input_Phone_form-control",
+      "brokenLocator": "//*[@id\u003d\"phoneNumberLabel\"]/div[1]/div[2]/div[1]/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Organo Gold/input_Phone_form-control_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Organo Gold/input_I prefer local pick up_ant-input rec w-100",
+      "brokenLocator": "//input[@type \u003d \u0027text\u0027 and @placeholder \u003d \u0027First Name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//input[@value\u003d\u0027\u0027])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Organo Gold/input_I prefer local pick up_ant-input rec w-100_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Organo Gold/input_First Name_ant-input rec w-100",
+      "brokenLocator": "//input[@type \u003d \u0027text\u0027 and @placeholder \u003d \u0027Last Name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//input[@value\u003d\u0027\u0027])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Organo Gold/input_Last Name_ant-input rec w-100 bp-99",
+      "brokenLocator": "//input[@type \u003d \u0027text\u0027 and @placeholder \u003d \u0027Address\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//input[@value\u003d\u0027\u0027])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}

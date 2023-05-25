@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>buttonGoBackDetailOrder</name>
+   <tag></tag>
+   <elementGuidId>e6c54b2c-8e7b-4c69-8bc2-26c4f6812f40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class= 'goBackBtn']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.goBackBtn</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>46f098dc-9fb1-46dd-bab8-ef8baeed0038</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>goBackBtn</value>
+      <webElementGuid>ca1b5aac-84e9-4a26-adce-e9741eb7a731</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> GO BACK</value>
+      <webElementGuid>5f5e56f4-f464-48b2-a444-3c4ba9ec1d2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;boMainContent--wrapper&quot;]/div[@class=&quot;boMainContent&quot;]/div[@class=&quot;boMainContent__content&quot;]/div[@class=&quot;boPages&quot;]/div[@class=&quot;viewOrdersPage&quot;]/div[@class=&quot;viewOrdersPage__content&quot;]/div[@class=&quot;accordion&quot;]/div[@class=&quot;accordion__content&quot;]/div[@class=&quot;accordion__body&quot;]/div[@class=&quot;table&quot;]/div[@class=&quot;tableMainViewOrders&quot;]/div[@class=&quot;tableMainViewOrders__content&quot;]/div[@class=&quot;tableContent&quot;]/div[@class=&quot;detailView&quot;]/div[@class=&quot;detailView__content&quot;]/div[@class=&quot;pageHeader&quot;]/div[@class=&quot;goBackBtn&quot;]</value>
+      <webElementGuid>dc8a52b8-7a1d-4921-8ba0-9802c89d6030</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[2]/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/div/div[3]/div/div/div/div[2]</value>
+      <webElementGuid>e5bb6268-e570-46d7-894c-4d192bfbf1c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order History / View Order'])[1]/following::div[1]</value>
+      <webElementGuid>d05fa097-0926-492e-98d5-c255b1a788bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order History'])[1]/following::div[54]</value>
+      <webElementGuid>8b386bc8-03a6-4f3a-8c2c-32f25512cc0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[14]/preceding::div[303]</value>
+      <webElementGuid>d00de162-3d29-43aa-bdcb-12712eb98b33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No data'])[1]/preceding::div[485]</value>
+      <webElementGuid>73e01082-f635-4684-a2bd-705825513320</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div[2]</value>
+      <webElementGuid>662b31ef-a9f8-4a03-b600-707d68e00adf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' GO BACK' or . = ' GO BACK')]</value>
+      <webElementGuid>4652a22d-cc7b-43af-8729-89ce30a8449c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//div[@class= 'goBackBtn']</value>
+      <webElementGuid>266dd13e-0240-4e95-8202-e6f2a14a4b8b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

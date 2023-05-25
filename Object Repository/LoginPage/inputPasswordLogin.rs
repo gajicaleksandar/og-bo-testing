@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputPasswordLogin</name>
+   <tag></tag>
+   <elementGuidId>c1117114-1b7e-4fd7-8309-9b72394de9df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@name=&quot;password&quot;])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>(//input[@name=&quot;password&quot;])[2]</value>
+      <webElementGuid>166d35c3-c29f-4df1-83d6-183934c5fb63</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

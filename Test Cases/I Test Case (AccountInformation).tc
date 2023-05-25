@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>starting smoke test with this test case
+-change country
+-registration
+-login
+-BO
+-change password
+-change language and check categories and products</description>
+   <name>I Test Case (AccountInformation)</name>
+   <tag>smoketest</tag>
+   <comment></comment>
+   <testCaseGuid>afc17c47-d2fa-4c9f-a24d-128044ef6f8d</testCaseGuid>
+</TestCaseEntity>

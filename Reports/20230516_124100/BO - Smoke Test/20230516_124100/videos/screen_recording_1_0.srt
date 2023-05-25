@@ -1,0 +1,36 @@
+1
+00:00:00,412 --> 00:00:03,796
+1. openBrowser("")
+
+2
+00:00:03,813 --> 00:00:06,136
+5. navigateToUrl("https://ecommerce-test.softmetrixgroup.com/")
+
+3
+00:00:06,137 --> 00:00:06,189
+9. deleteAllCookies()
+
+4
+00:00:06,190 --> 00:00:06,344
+13. maximizeWindow()
+
+5
+00:00:06,344 --> 00:00:06,930
+17. refresh()
+
+6
+00:00:06,932 --> 00:00:11,767
+21. shopVersion = getText(findTestObject("Footer/shopVersion"))
+
+7
+00:00:11,767 --> 00:00:11,773
+25. println("Version of origin/test is: " + shopVersion)
+
+8
+00:00:11,774 --> 00:00:51,350
+29. click(findTestObject("Footer/divCountryLanguage"))
+
+9
+00:00:51,350 --> 00:00:51,913
+1. cleanup()
+
